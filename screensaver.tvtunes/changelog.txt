@@ -1,0 +1,8 @@
+v1.1.1 (2016-08-19)
+- Moved to robwebset repository
+
+v1.0.1 (2016-08-19)
+- Add gif to the supported image formats
+
+v1.0.0 (2016-05-01)
+- Initial version of TvTunes Screensaver

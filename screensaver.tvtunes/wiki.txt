@@ -1,0 +1,121 @@
+{{Addon 
+|Name=TvTunesScreensaver
+|provider-name=robwebset
+|ID=screensaver.tvtunes
+|extension point=xbmc.ui.screensaver
+|provides=
+|Summary=Plays your themes while showing images for each TV Show or Movie
+|Description=The TvTunes Screensaver makes use of the themes configured in your library to use them as a screensaver.
+|Platform=all
+|Language=
+|License=GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007
+|Forum=http://forum.kodi.tv/showthread.php?tid=292714
+|Website=
+|Source=https://github.com/robwebset/screensaver.tvtunes
+|Email=
+|broken=
+|icon url=https://github.com/robwebset/screensaver.tvtunes/raw/master/icon.png}}
+
+
+== Introduction ==
+You can install this addon from: [[Repository:robwebset]]
+<br />
+<br />
+TvTunes Screensaver is a versatile screensaver that can be used to:
+* View artwork for TV Shows and Movies
+* Play TV or Movie themes while showing artwork
+* Show a set of different images in various display formats
+
+It was originally designed to work well with [[Add-on:TvTunes|TvTunes]] but can also be used to just display images if you would rather theme audio was not played in the background.
+
+<br />
+
+== Screensaver Formats ==
+The following formats are available within TvTunes Screensaver
+{| border="0"
+|- valign=top
+|'''Slider''' - This will slide the images into view from either the left, right, top or bottom of the screen.
+| [[File:TvTunes-Screensaver-Slider.JPG|400px]]
+|- valign=top
+|'''Crossfade''' - will fade one image in over the top of the next image
+| [[File:TvTunes-Screensaver-Crossfade.JPG|400px]]
+|- valign=top
+|'''TableDrop''' - will drop each image onto the screen at random overlaps and angles
+| [[File:TvTunes-Screensaver-Tabledrop.JPG|400px]]
+|- valign=top
+|'''StarWars''' - will show a stream of images similar to the Star Wars intro sequence
+| [[File:TvTunes-Screensaver-Starwars.JPG|400px]]
+|- valign=top
+|'''RandomZoomIn''' - will randomly zoom in to each image in turn
+| [[File:TvTunes-Screensaver-RandomZoomIn.JPG|400px]]
+|- valign=top
+|'''AppleTVLike''' - like the Apple TV Screensaver, will scroll a mix of images up from the bottom of the screen
+| [[File:TvTunes-Screensaver-AppleTVLike.JPG|400px]]
+|- valign=top
+|'''GridSwitch''' - will show several images at the same time in a grid format
+| [[File:TvTunes-Screensaver-GridSwitch.JPG|400px]]
+|- valign=top
+|'''Random''' - will randomly show one of the above screensaver formats
+| 
+|}
+
+There are several options for each of the different screen saver that control the speed images move or how frequently the image changes.
+<br />
+
+== Settings ==
+=== Screensaver ===
+{| border="0"
+|- valign=top
+|
+:'''Screensaver'''
+::Select which format of screensaver to use
+:'''Image Source'''
+::Select if the Movie, TV Show or custom path is used to show images for the screensaver
+:'''- Image Type'''
+::Which type of images to use for the screensaver i.e. Fanart, Thumbnails, Cast
+| [[File:TvTunesScreensaver-Settings1.JPG|400px]]
+|}
+<br />
+=== Themes ===
+{| border="0"
+|- valign=top
+|
+:'''Play Themes During Screensaver'''
+::If a theme is available, play it while showing the images for the given Movie or TV Show
+:'''- Only Show Images When A Theme Exists'''
+::Only add a Movie or TV Show to the screensaver if it has a theme
+:'''- Repeat Rules'''
+::When to move to the next set of images for a different Movie or TV Show
+:'''Include Artwork Downloader Images'''
+::If the [[Add-on:Artwork Downloader|Artwork Downloader Addon]] is installed and has stored images with the Movie or TV Show, also show those images
+:'''Dim Level'''
+::If to dim the screen when the screensaver runs
+| [[File:TvTunesScreensaver-Settings2.JPG|400px]]
+|}
+<br />
+=== File System ===
+{| border="0"
+|- valign=top
+|
+:<u>'''''Debugging'''''</u>
+::
+:'''Enable debug logging'''
+::Enables TvTunesScreensaver debug logging (Required if reporting a problem) - for this to work, system-wide Kodi [[Settings/System#Debugging|logging]] must also be enabled
+| [[File:TvTunesScreensaver-Settings3.JPG|400px]]
+|}
+
+<br />
+== Debugging ==
+If reporting a problem, please also provide a debug log. To do this you need to enable BOTH:
+* Kodi [[Settings/System#Debugging|logging]] from the main setting menu
+* TvTunesScreensaver debug from the TvTunesScreensaver addon settings menu
+Please do not paste the log into the forum thread, just link to it.
+<br />
+
+== Donations ==
+If you have found TvTunesScreensaver useful and would like to help support future development and bug fixes, then please feel free to make a small donation.
+<br />
+<br />
+Please use the link on the top of the [http://forum.kodi.tv/showthread.php?tid=272157 TvTunesScreensaver Forum]
+<br />
+<br />

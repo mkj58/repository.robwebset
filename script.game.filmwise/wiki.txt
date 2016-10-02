@@ -1,0 +1,84 @@
+{{Addon 
+|Name=FilmWise
+|provider-name=robwebset
+|ID=script.game.filmwise
+|extension point=xbmc.python.script
+|provides=
+|Summary=FilmWise Invisibles Quiz
+|Description=Play the FilmWise weekly invisibles quiz
+|Platform=all
+|Language=
+|License=GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007
+|Forum=http://forum.kodi.tv/showthread.php?tid=292729
+|Website=
+|Source=https://github.com/robwebset/script.game.filmwise
+|Email=
+|broken=
+|icon url=https://github.com/robwebset/script.game.filmwise/raw/master/icon.png}}
+
+<!-- Page content goes here -->
+== Introduction ==
+You can install this addon from: [[Repository:robwebset]]
+<br />
+<br />
+FilmWise is an addon that gives you access and reminders for the [http://www.filmwise.com/ FilmWise Invisibles Quiz].
+
+This is a great weekly quiz where you get 8 images where the actors have been removed and you have to guess the movie!
+
+After installing the addon you can start the quiz by either going to the Programs section or Video Add-on section.
+<br />
+<br />
+== The Quiz ==
+When selecting a quiz either via the Programs or Video Addon section the following window will be displayed:
+<br /><br />
+<center>[[File:FilmWise-Display1.JPG|700px]]</center>
+<br />
+The answers can be entered under each picture, and by clicking on "Check Answers" it will highlight the correct ones. For weeks that have solutions, a "Show Solution" button will be displayed, clicking on that will show the answers for that week, filling in the people in the picture at the same time.
+<br /><br />
+<center>[[File:FilmWise-Display2.JPG|700px]]</center>
+<br />
+<br />
+== Notifications ==
+There are two different ways to be notified of a new quiz (configurable in the settings)
+* A notification popup when Kodi starts
+* Automatically opening the quiz display screen when Kodi starts
+<br />
+<br />
+== Settings ==
+This section details all the settings options for Suitability
+=== FilmWise ===
+{| border="0"
+|- valign=top
+|
+:'''Remember User Answers'''
+::Stores the answers previously entered
+:'''Notify If New Quiz Available'''
+::Notify on startup if a new quiz is available
+:'''- Automatically Open New Quiz'''
+::Automatically open the new quiz on startup
+:<u>'''''Operations'''''</u>
+::
+:'''Clear Saved Answers'''
+::Removes all the saved answers
+:<u>'''''Debugging'''''</u>
+::
+:'''Enable Debug logging'''
+::Enables FilmWise debug logging into the Kodi log file  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+| [[File:FilmWise-Settings1.JPG|400px]]
+|}
+<br />
+<br />
+== Debugging ==
+If reporting a problem, please also provide a debug log. To do this you need to enable BOTH:
+* Kodi [[Settings/System#Debugging|logging]] from the main setting menu
+* FilmWise debug from the FilmWise addon settings menu
+Please do not paste the log into the forum thread, just link to it.
+<br />
+<br />
+== Donations ==
+If you have found the FilmWise Addon useful and would like to help support future development and bug fixes, then please feel free to make a small donation.
+<br />
+<br />
+Please use the link on the top of the [http://forum.kodi.tv/showthread.php?tid=257178 FilmWise Forum]
+<br />
+<br />

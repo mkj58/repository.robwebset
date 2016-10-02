@@ -1,0 +1,95 @@
+{{Addon 
+|Name=RandomScreensaver
+|provider-name=robwebset
+|ID=screensaver.random
+|extension point=xbmc.ui.screensaver
+|provides=
+|Summary=Random Screensaver
+|Description=Screensaver that selects an installed screensaver at random to be used.
+|Platform=all
+|Language=
+|License=GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007
+|Forum=http://forum.kodi.tv/showthread.php?tid=292710
+|Website=
+|Source=https://github.com/robwebset/screensaver.random
+|Email=
+|broken=
+|icon url=https://github.com/robwebset/screensaver.random/raw/master/icon.png}}
+
+<!-- Page content goes here -->
+== Introduction ==
+You can install this addon from: [[Repository:robwebset]]
+<br />
+<br />
+The RandomScreensaver is an addon that you can select as your screensaver and every time the screensaver starts it will automatically choose one of the screensavers installed on your system and start it.
+
+There is also an option to set time intervals during which a specified screensaver should be used.
+
+This can be very useful if you wish to have a mix of different screensavers used on your installation.
+<br />
+<br />
+== Screensaver Support ==
+In order for RandomScreensaver to support randomly selecting a screensaver to start, the screensaver must also be configured to run as a script, this means that in addition to the addon.xml file containing:
+<source lang="xml">
+<extension point="xbmc.ui.screensaver" library="default.py"/>
+</source>
+It should also contain the following entry:
+<source lang="xml">
+<extension point="xbmc.python.script" library="default.py" />
+</source>
+The Kodi default screensavers (Dim and Black) are automatically excluded from any selection.
+<br />
+<br />
+== Settings ==
+=== Screensaver ===
+{| border="0"
+|- valign=top
+|
+:'''Mode'''
+::Either Random, or Schedule mode (If Schedule mode, then the Schedule setting need to be set)
+:'''- Excluded Screensavers'''
+::Allows you to prevent a given set of screensavers being selected by RandomScreensaver (Random Mode Only)
+:<u>'''''Debugging'''''</u>
+::
+:'''Enable Debug logging'''
+::Enables RandomScreensaver debug logging into the Kodi log file
+:<u>'''''Operations'''''</u>
+::
+:'''Check Supported Screensavers'''
+::Checks all the screensavers installed and displays a list of screensavers that RandomScreensaver does not support.
+| [[File:RandomScreensaver-Settings1.JPG|400px]]
+|}
+
+=== Schedule ===
+{| border="0"
+|- valign=top
+|
+:'''Number Of Schedule Rules'''
+::Allows upto 5 different schedule rules to be set. (In order for the Schedule option to be used it must first be enabled in the "mode" setting)
+:<u>'''''Rule X'''''</u>
+:'''Start Time'''
+::The start of the time interval that the given screensaver is to be used
+:'''End Time'''
+::The end of the time interval that the given screensaver is to be used
+:'''Screensaver'''
+::The screensaver that should be used during this time interval
+| [[File:RandomScreensaver-Settings2.JPG|400px]]
+|}
+
+
+<br />
+<br />
+== Debugging ==
+If reporting a problem, please also provide a debug log. To do this you need to enable BOTH:
+* Kodi [[Settings/System#Debugging|logging]] from the main setting menu
+* RandomScreensaver debug from the RandomScreensaver addon settings menu
+Please do not paste the log into the forum thread, just link to it.
+<br />
+<br />
+== Donations ==
+If you have found the RandomScreensaver Addon useful and would like to help support future development and bug fixes, then please feel free to make a small donation.
+<br />
+<br />
+Please use the link on the top of the [http://forum.kodi.tv/showthread.php?tid=226971 RandomScreensaver Forum]
+<br />
+<br />

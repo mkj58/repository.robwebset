@@ -1,0 +1,94 @@
+= robwebset Addon Repository =
+
+The "robwebset Reposotory" can be enabled on your Kodi installation by installing the following Addon Zip:
+
+:https://github.com/robwebset/repository.robwebset/raw/master/repos/repository.robwebset/repository.robwebset-1.0.0.zip
+
+Instructions on how to install a repository can be found on the following page:
+
+:[[HOW-TO:Install_add-ons_from_zip_files]]
+
+The robwebset repository stores lots of popular addons created and maintained by robwebset.
+
+= Why? =
+
+Some people may wonder why these addons are not in the official repository. The majority of them used to be, however after several repository rule changes after they were in the official repository I couldn't keep the feature rich functionality in tacked while keeping them in the official repository (Mainly due to a change in Keymap rules). So I decided it would be easier for everyone to just have them in my own repository.
+
+= Forum =
+
+If you have any comments that you wish to share about the robwebset repository then you can always head over to the Forum Page:
+
+[http://forum.kodi.tv/showthread.php?tid=292748 Robwebset Repository Forum Page]
+
+= Repository Contents =
+
+{|
+|-
+| <img src=https://github.com/robwebset/service.addonsync/raw/master/icon.png width="50%" height="50%"> || <u>'''AddonSync'''</u>
+<br />
+AddonSync will keep all the settings for your addons installed on different installations in sync with eachother. ([[Add-on:AddonSync|Wiki]])
+|-
+| <img src=https://github.com/robwebset/script.audiobooks/raw/master/icon.png width="50%" height="50%"> || <u>'''AudioBooks'''</u>
+<br />
+AudioBooks is an addon that allows you to list and play your m4b and mp3 AudioBooks. ([[Add-on:AudioBooks|Wiki]])
+|-
+| <img src=https://github.com/robwebset/script.ebooks/raw/master/icon.png width="50%" height="50%"> || <u>'''eBooks'''</u>
+<br />
+eBooks is an addon that allows you to list and view your epub, mobi and pdf eBooks. ([[Add-on:eBooks|Wiki]])
+|-
+| <img src=https://github.com/robwebset/script.game.filmwise/raw/master/icon.png width="50%" height="50%"> || <u>'''FilmWise'''</u>
+<br />
+FilmWise is an addon that gives you access and reminders for the [http://www.filmwise.com/ FilmWise Invisibles Quiz]. ([[Add-on:FilmWise|Wiki]])
+|-
+| <img src=https://github.com/robwebset/script.pinsentry/raw/master/icon.png width="50%" height="50%"> || <u>'''PinSentry'''</u>
+<br />
+PinSentry is an addon that will allow you to set a pin code that you can then force to be input when you play a particular video file or navigate into a given TV Show or Plugin. ([[Add-on:PinSentry|Wiki]])
+|-
+| <img src=https://github.com/robwebset/screensaver.random/raw/master/icon.png width="50%" height="50%"> || <u>'''RandomScreensaver'''</u>
+<br />
+RandomScreensaver is an addon that you can select as your screensaver and every time the screensaver starts it to be randomized or even set to a schedule. ([[Add-on:RandomScreensaver|Wiki]])
+|-
+| <img src=https://github.com/robwebset/script.recap/raw/master/icon.png width="50%" height="50%"> || <u>'''Recap'''</u>
+<br />
+The Recap addon is an addon that allows you to "Catch Up" with what has happened in a given TV Episode. ([[Add-on:Recap|Wiki]])
+|-
+| <img src=https://github.com/robwebset/script.sleep/raw/master/icon.png width="50%" height="50%"> || <u>'''Sleep'''</u>
+<br />
+The Sleep addon behaves like a standard TVs sleep timer where you can vary the length of time before Kodi will shut down. ([[Add-on:Sleep|Wiki]])
+|-
+| <img src=https://github.com/robwebset/script.sonos/raw/master/icon.png width="50%" height="50%"> || <u>'''Sonos'''</u>
+<br />
+The Kodi Sonos Addon allows you to interact with your [http://www.sonos.com/ Sonos] audio system. ([[Add-on:Sonos|Wiki]])
+|-
+| <img src=https://github.com/robwebset/script.suitability/raw/master/icon.png width="50%" height="50%"> || <u>'''Suitability'''</u>
+<br />
+The Suitability addon allows you to get an "overview" of the content of a movie, things like the sex/violence/language content, so you can make a judgement as to the suitability for your children. ([[Add-on:Suitability|Wiki]])
+|-
+| <img src=https://github.com/robwebset/script.tvtunes/raw/master/icon.png width="50%" height="50%"> || <u>'''TvTunes'''</u>
+<br />
+Retrieve and Play Soundtracks Whilst Browsing within the Kodi library. ([[Add-on:TvTunes|Wiki]])
+|-
+| <img src=https://github.com/robwebset/screensaver.tvtunes/raw/master/icon.png width="50%" height="50%"> || <u>'''TvTunesScreensaver'''</u>
+<br />
+TvTunes Screensaver allows you to view images and/or audio as part of a screensaver. ([[Add-on:TvTunesScreensaver|Wiki]])
+|-
+| <img src=https://github.com/robwebset/script.videoextras/raw/master/icon.png width="50%" height="50%"> || <u>'''VideoExtras'''</u>
+<br />
+VideoExtras is an addon that allows you to list and view your DVD or Bluray extras via Kodi. ([[Add-on:VideoExtras|Wiki]])
+|-
+| <img src=https://github.com/robwebset/screensaver.video/raw/master/icon.png width="50%" height="50%"> || <u>'''VideoScreensaver'''</u>
+<br />
+VideoScreensaver is a screensaver that will play a video file when the screensaver starts. It will support playing either a user specified video file, or one of the pre-defined video files detailed on the Wiki. ([[Add-on:VideoScreensaver|Wiki]])
+|-
+| <img src=https://github.com/robwebset/screensaver.weather/raw/master/icon.png width="50%" height="50%"> || <u>'''WeatherScreensaver'''</u>
+<br />
+The WeatherScreensaver is an addon that you can select as your screensaver and will display the weather screen in Kodi. ([[Add-on:WeatherScreensaver|Wiki]])
+|}
+= Modules =
+
+{|
+|-
+| <img src=https://github.com/robwebset/script.module.mutagen/raw/master/icon.png width="25%" height="25%"> || <u>'''Mutagen'''</u>
+<br />
+A module to supply [http://mutagen.readthedocs.io Mugagen] ([http://forum.kodi.tv/showthread.php?tid=288751 Forum])
+|}
