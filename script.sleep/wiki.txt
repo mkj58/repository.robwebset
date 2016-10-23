@@ -9,6 +9,8 @@ The Sleep addon provides support to automatically shutdown/suspend Kodi in a sim
 * Via a remote control or keyboard button (Configurable which button)
 <br />
 == The Sleep Dialog ==
+[[https://github.com/robwebset/repository.robwebset/raw/master/script.sleep/images/Sleep-Dialog.JPG]]
+<br />
 The dialog to control the Sleep Addon is designed to be as simple as possible. When the dialog first opens it will show the sleep timer as disabled, the timer can be extended, by default in ten minute intervals (configurable in the settings), by performing either of the following actions:
 * Pressing the configured remote or keyboard button again (For each press it will extend the timer)
 * Selecting the "+10" button on the dialog

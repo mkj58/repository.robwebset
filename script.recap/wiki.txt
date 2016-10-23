@@ -1,28 +1,7 @@
-{{Addon 
-|Name=Recap
-|provider-name=robwebset
-|ID=script.recap
-|extension point=xbmc.python.script
-|provides=
-|Summary=Recap
-|Description=Shows a summary of what has happened in a TV Episode, including images.
-|Platform=all
-|Language=
-|License=GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007
-|Forum=http://forum.kodi.tv/showthread.php?tid=292728
-|Website=
-|Source=https://github.com/robwebset/script.recap
-|Email=
-|broken=
-|icon url=https://github.com/robwebset/script.recap/raw/master/icon.png}}
+[[https://github.com/robwebset/script.recap/raw/master/icon.png]]
 
-<!-- Page content goes here -->
-
-[http://recapguide.com Supported By:] <img src=http://recapguide.com/static/img/logo/recap-guide-logo-on-light.png>
-<br />
-<br />
 == Introduction ==
-You can install this addon from: [[Repository:robwebset]]
+You can install this addon from: [https://github.com/robwebset/repository.robwebset robwebset Repository]
 <br />
 <br />
 The Recap addon is an addon that allows you to "Catch Up" with what has happened in a given TV Episode. It uses the site [http://www.recapguide.com www.recapguide.com] and will display a small description and 50 images to jog your memory for what happened.
@@ -33,13 +12,11 @@ This is useful if you watch TV an entire season/series and then watch the episod
 <br />
 It can be run from the Programs section, or call up the context menu on a TV Show/Season/Episode and you can get the recap on that show (For episodes, there is also an option to get a recap for the previous episode).
 <br />
-<br />
 == Recap Information ==
 The following image is an example of the recap information provided:
 <center>
-[[File:Recap-Screen1.JPG|400px]]
+[[https://github.com/robwebset/repository.robwebset/raw/master/script.recap/images/Recap-Screen1.JPG|400px]]
 </center>
-<br />
 <br />
 == Settings ==
 === Recap ===
@@ -54,9 +31,7 @@ The following image is an example of the recap information provided:
 ::
 :'''Enable Debug logging'''
 ::Enables Recap debug logging into the Kodi log file
-| [[File:Recap-Settings1.JPG|400px]]
 |}
-<br />
 <br />
 === Behaviour ===
 {| border="0"
@@ -72,21 +47,11 @@ The following image is an example of the recap information provided:
 ::Automatically flick through the images for the TV Show without the need to click the next button
 :'''Enable Notifications For Requests'''
 ::Allows an email address to be entered that will be sent with any requests to add new TV Shows. This email address will be used to notify you when the show is added
-| [[File:Recap-Settings2.JPG|400px]]
 |}
-<br />
 <br />
 == Debugging ==
 If reporting a problem, please also provide a debug log. To do this you need to enable BOTH:
-* Kodi [[Settings/System#Debugging|logging]] from the main setting menu
+* Kodi logging from the main setting menu
 * Recap debug from the Recap addon settings menu
 Please do not paste the log into the forum thread, just link to it.
-<br />
-<br />
-== Donations ==
-If you have found the Recap Addon useful and would like to help support future development and bug fixes, then please feel free to make a small donation.
-<br />
-<br />
-Please use the link on the top of the [http://forum.kodi.tv/showthread.php?tid=275040 Recap Forum]
-<br />
 <br />

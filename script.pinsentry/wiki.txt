@@ -1,24 +1,7 @@
-{{Addon 
-|Name=PinSentry
-|provider-name=robwebset
-|ID=script.pinsentry
-|extension point=xbmc.python.pluginsource
-|provides=video
-|Summary=Protect Kodi Content With A Pin Code
-|Description=Force users to enter the correct pin code for given content.
-|Platform=all
-|Language=
-|License=GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007
-|Forum=http://forum.kodi.tv/showthread.php?tid=292719
-|Website=
-|Source=https://github.com/robwebset/script.pinsentry
-|Email=
-|broken=
-|icon url=https://github.com/robwebset/script.pinsentry/raw/master/icon.png}}
+[[https://github.com/robwebset/script.pinsentry/raw/master/icon.png]]
 
-<!-- Page content goes here -->
 == Introduction ==
-You can install this addon from: [[Repository:robwebset]]
+You can install this addon from: [https://github.com/robwebset/repository.robwebset robwebset Repository]
 <br />
 <br />
 PinSentry is an addon that will allow you to set a pin code that you can then force to be input when you play a particular video file or navigate into a given TV Show or Plugin. There is also an option to force the user to enter a pin when the system starts, and then restrict the amount of time the user is allowed each day.
@@ -31,10 +14,9 @@ After install you need to:
 == Pin Contol ==
 Whenever a user selects an item that has been protected by PinSentry they will be prompted with a dialog like the following:
 <br />
-<center>[[File:PinSentry-PinDialog1.JPG|200px]]</center>
+[[https://github.com/robwebset/repository.robwebset/raw/master/script.pinsentry/images/PinSentry-PinDialog1.JPG|200px]]
 <br />
-The correct pincode should be entered via the onscreen buttons or a remote control numeric pad in order to gain access. It you have "[[Add-on:PinSentry#Setup|Allow Direction Keys In Pin Code]]" enabled in the settings then you can also use a pin code made up of Up, Down, Left and Right, this is useful if you have a remote control without numbers.
-<br />
+The correct pincode should be entered via the onscreen buttons or a remote control numeric pad in order to gain access. It you have "Allow Direction Keys In Pin Code" enabled in the settings then you can also use a pin code made up of Up, Down, Left and Right, this is useful if you have a remote control without numbers.
 <br />
 == Configuring Access ==
 In order to configure which files or operations require the entry of the pin number you can access the menu be either via:
@@ -43,7 +25,7 @@ In order to configure which files or operations require the entry of the pin num
 * Settings
 That will present the main settings menu:
 <br />
-<center>[[File:PinSentry-PermissionsScreen1.JPG|600px]]</center>
+[[https://github.com/robwebset/repository.robwebset/raw/master/script.pinsentry/images/PinSentry-PermissionsScreen1.JPG|600px]]
 <br />
 That will allow you to set values as follows:
 :'''Movies'''
@@ -63,7 +45,6 @@ That will allow you to set values as follows:
 :'''[Force Pin Entry]'''
 ::Brings up the Pin Entry Dialog, forcing the pin to be entered before continuing
 <br />
-<br />
 == Classifications ==
 Each country has their own set of classifications, each meaning different things. Pin Sentry currently supports the following countries classifications
 * Australia
@@ -80,7 +61,7 @@ Each country has their own set of classifications, each meaning different things
 * Sweden
 * UK
 * USA
-If you would like another countries classifications supported then please post a request to the [http://forum.kodi.tv/showthread.php?tid=228451 forum]. The classifications have been taken from the following documents:
+If you would like another countries classifications supported then please post a request. The classifications have been taken from the following documents:
 * http://en.wikipedia.org/wiki/Motion_picture_rating_system
 * http://en.wikipedia.org/wiki/Television_content_rating_systems
 Note: Not all countries have TV Show classifications
@@ -94,19 +75,17 @@ There are two options in the PinSentry settings to help you identify videos that
 <br />
 Videos that are protected via a classification rule can be excluded by manually selecting a given video and then choosing the "Remove Classification Restriction" option. Again, when this option is set it will be highlighted by the "Play Triangle".
 <br />
-<br />
 == Multiple Security Levels ==
-If you wish to have multiple pins to restrict different types of content then you can enable this support via the [[Add-on:PinSentry#Setup|options screen]]. You are allowed upto 5 different security levels, each needing a pin number to be set for them. (To access the settings screens the pin for the highest security level will be required).
+If you wish to have multiple pins to restrict different types of content then you can enable this support via the options screen. You are allowed upto 5 different security levels, each needing a pin number to be set for them. (To access the settings screens the pin for the highest security level will be required).
 <br />
 <br />
 The security levels are "stacked" on top of each other. You can set the security level of each video, you will then be prompted for a pin when you try and access the video, at which point you can enter a pin number. If you are trying to play a video with security level 3, then you can enter the pin number set for either 3, 4 or 5 in order to get it playing. Entering the pin for level 1 or 2 will continue to prevent you viewing the video.
 <br />
 <br />
-If you enable the option "[[Add-on:PinSentry#Setup|Show Security Level On Permissions Screen]]" then the security level will be shown on the permissions screens. This is shown in the format 01:00 (Level 1), 02:00 (Level 2), 03:00 (Level 3), 04:00 (Level 4) and 05:00 (Level 5). This is not ideal, but allows the use of the generic Kodi plugin screens without the need to introduce custom screens that would require support to be added for each skin.
-<br />
+If you enable the option "Show Security Level On Permissions Screen" then the security level will be shown on the permissions screens. This is shown in the format 01:00 (Level 1), 02:00 (Level 2), 03:00 (Level 3), 04:00 (Level 4) and 05:00 (Level 5). This is not ideal, but allows the use of the generic Kodi plugin screens without the need to introduce custom screens that would require support to be added for each skin.
 <br />
 == Time Limits ==
-If you wish to restrict the amount of time that a user is able to use Kodi each day (Children for example) then the Time Limits feature will allow you to do that. After being configured in the [[Add-on:PinSentry#Time_Limits_2|settings]] each time that Kodi starts it will prompt for a pin code to be entered.
+If you wish to restrict the amount of time that a user is able to use Kodi each day (Children for example) then the Time Limits feature will allow you to do that. After being configured in the settings each time that Kodi starts it will prompt for a pin code to be entered.
 
 If you enter the master (unrestricted) pin then no limits will be applied.
 
@@ -114,17 +93,15 @@ If you enter a users pin number then the current time limit settings (and remain
 
 If a user wishes to see how much time they have remaining, they can run PinSentry from the Programs menu and the summary dialog will be displayed again.
 <br />
-<br />
 == Force Pin Prompt ==
 It is possible to have the Pin Prompt be displayed and not exit until the correct pin is entered. This can be started in one of the following ways:
 * Videos -> Addons -> PinSentry -> [Force Pin Entry]
 * As a screensaver - just select PinSentry as your screensaver, and the prompt will appear when your screensaver time expires
 * On Kodi startup (Enable in settings)
-It is also possible to manually update your Kodi configuration to "map" a remote control (or keyboard button) to force the prompt to be displayed.  To do this you must create a [[HOW-TO:Modify keymaps|keymap]] file and map your chosen key to run the following command:
+It is also possible to manually update your Kodi configuration to "map" a remote control (or keyboard button) to force the prompt to be displayed.  To do this you must create a [http://kodi.wiki/view/HOW-TO:Modify_keymaps keymap] file and map your chosen key to run the following command:
 <source lang="xml">
 SetProperty(PinSentryPrompt, true, 10000)
 </source>
-<br />
 <br />
 
 == Settings ==
@@ -151,7 +128,6 @@ This section details all the settings options for PinSentry
 ::Allows the setting of which items require the user to enter a pin before access.
 :'''Clean Database'''
 ::Clears the database that contains all the rules for which items require a pin
-| [[File:PinSentry-Settings1.JPG|400px]]
 |}
 
 === Activity ===
@@ -174,7 +150,6 @@ This section details all the settings options for PinSentry
 ::Requires a pin if an attempt to access a movie that has no valid classification set
 :'''Block TV Shows Without A Classification'''
 ::Requires a pin if an attempt to access a TV Show that has no valid classification set
-| [[File:PinSentry-Settings2.JPG|400px]]
 |}
 
 === Advanced ===
@@ -203,7 +178,6 @@ This section details all the settings options for PinSentry
 ::
 :'''Enable Debug logging'''
 ::Enables PinSentry debug logging into the Kodi log file
-| [[File:PinSentry-Settings3.JPG|400px]]
 |}
 
 === Time Limits ===
@@ -230,22 +204,11 @@ This section details all the settings options for PinSentry
 ::The time of day that the user is no longer allowed to access Kodi
 :'''- Daily Viewing Allowance (Minutes)'''
 ::The total time in one day that the user is allowed to use Kodi
-| [[File:PinSentry-Settings4.JPG|400px]]
 |}
-
-<br />
 <br />
 == Debugging ==
 If reporting a problem, please also provide a debug log. To do this you need to enable BOTH:
-* Kodi [[Settings/System#Debugging|logging]] from the main setting menu
+* Kodi logging from the main setting menu
 * PinSentry debug from the PinSentry addon settings menu
 Please do not paste the log into the forum thread, just link to it.
-<br />
-<br />
-== Donations ==
-If you have found the PinSentry Addon useful and would like to help support future development and bug fixes, then please feel free to make a small donation.
-<br />
-<br />
-Please use the link on the top of the [http://forum.kodi.tv/showthread.php?tid=228451 PinSentry Forum]
-<br />
 <br />
