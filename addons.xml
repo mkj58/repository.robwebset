@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="screensaver.random" name="RandomScreensaver" version="1.3.2" provider-name="robwebset">
+<addon id="screensaver.random" name="RandomScreensaver" version="100.3.2" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -40,12 +40,12 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292710</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/screensaver.random</source>
 	</extension>
 </addon>
 
-<addon id="screensaver.tvtunes" name="TvTunesScreensaver" version="1.1.2" provider-name="robwebset">
+<addon id="screensaver.tvtunes" name="TvTunesScreensaver" version="100.1.2" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -59,12 +59,12 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292714</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/screensaver.tvtunes</source>
 	</extension>
 </addon>
 
-<addon id="screensaver.video" name="VideoScreensaver" version="1.5.3" provider-name="robwebset">
+<addon id="screensaver.video" name="VideoScreensaver" version="100.5.3" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -124,14 +124,15 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292708</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/screensaver.video</source>
 	</extension>
 </addon>
 
-<addon id="screensaver.weather" name="WeatherScreensaver" version="1.2.2" provider-name="robwebset">
+<addon id="screensaver.weather" name="WeatherScreensaver" version="100.2.2" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
 	</requires>
 	<extension point="xbmc.ui.screensaver" library="default.py"/>
   	<extension point="xbmc.python.script" library="default.py" />
@@ -141,15 +142,16 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292709</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/screensaver.weather</source>
 	</extension>
 </addon>
 
-<addon id="script.audiobooks" name="AudioBooks" version="1.6.4" provider-name="robwebset">
+<addon id="script.audiobooks" name="AudioBooks" version="100.6.4" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.resource.mutagen" version="1.34.1"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py">
 		<provides>audio</provides>
@@ -163,15 +165,16 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292711</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/script.audiobooks</source>
 	</extension>
 </addon>
 
-<addon id="script.ebooks" name="eBooks" version="1.3.2" provider-name="robwebset">
+<addon id="script.ebooks" name="eBooks" version="100.3.2" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py">
 		<provides>executable</provides>
@@ -184,15 +187,16 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292727</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/script.ebooks</source>
 	</extension>
 </addon>
 
-<addon id="script.game.filmwise" name="FilmWise" version="1.1.2" provider-name="robwebset">
+<addon id="script.game.filmwise" name="FilmWise" version="100.1.2" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py"/>
 	<extension point="xbmc.python.pluginsource" library="plugin.py">
@@ -205,12 +209,12 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292729</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/script.game.filmwise</source>
 	</extension>
 </addon>
 
-<addon id="script.pinsentry" name="PinSentry" version="2.2.4" provider-name="robwebset">
+<addon id="script.pinsentry" name="PinSentry" version="100.2.4" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -250,12 +254,12 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292719</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/script.pinsentry</source>
 	</extension>
 </addon>
 
-<addon id="script.recap" name="Recap" version="1.1.2" provider-name="robwebset">
+<addon id="script.recap" name="Recap" version="100.1.2" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -282,7 +286,7 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292728</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/script.recap</source>
 	</extension>
 </addon>
@@ -305,7 +309,7 @@
 	</extension>
 </addon>
 
-<addon id="script.sleep" name="Sleep" version="1.2.4" provider-name="robwebset">
+<addon id="script.sleep" name="Sleep" version="100.2.4" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -319,12 +323,12 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292726</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/script.sleep</source>
 	</extension>
 </addon>
 
-<addon id="script.sonos" name="Sonos" version="2.0.5" provider-name="robwebset">
+<addon id="script.sonos" name="Sonos" version="100.0.5" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.requests" version="2.3.0"/>
@@ -419,16 +423,17 @@
 
 		<license>See LICENSE.txt</license>
 
-		<forum>http://forum.kodi.tv/showthread.php?tid=292713</forum>
+		<forum></forum>
 
 		<source>https://github.com/robwebset/script.sonos</source>
 	</extension>
 </addon>
 
-<addon id="script.suitability" name="Suitability" version="1.2.2" provider-name="robwebset">
+<addon id="script.suitability" name="Suitability" version="100.2.2" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
 	</requires>
   	<extension point="xbmc.python.script" library="default.py"/>
 	<extension point="xbmc.service" library="service.py" start="login"/>
@@ -444,12 +449,12 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292724</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/script.suitability</source>
 	</extension>
 </addon>
 
-<addon id="script.tvtunes" name="TvTunes" version="6.4.4" provider-name="robwebset">
+<addon id="script.tvtunes" name="TvTunes" version="100.4.4" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -519,12 +524,12 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292716</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/script.tvtunes</source>
 	</extension>
 </addon>
 
-<addon id="script.videoextras" name="VideoExtras" version="2.2.4" provider-name="robwebset">
+<addon id="script.videoextras" name="VideoExtras" version="100.2.4" provider-name="robwebset">
 	<requires>
     	<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -587,32 +592,32 @@
     	<description lang="pt">Permite adicionar extras de vídeo à sua Biblioteca de Vídeos. Leia o wiki para mais instruções de configuração.</description>
     	<description lang="pt_BR">Prove um caminho para vídeo extras via info de vídeo. Ver o wiki para instruções de configuração.</description>
     	<description lang="sv">Tillhandahåller ett sätt att lägga till Video Extras till ditt filmbibliotek. Se wiki för inställningsanvisningar.</description>
-    	<disclaimer lang="cs">Tvůrci skinů: http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="de">Skin-Ersteller, bitte schaut für Informationen über die Integration in euren Skin im Wiki:&#10;http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="el">Skinners, ελέγξτε τον ιστότοπο για πληροφορίες σχετικά με την ενσωμάτωση στο κέλυφός σας: http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="en">Skinners, please see the wiki to know how to integrate it in your skin: http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="en_NZ">Skinners, please see the wiki to know how to integrate it in your skin: http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="en_US">Skinners, please see the wiki to know how to integrate it in your skin: http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="es">Desarrolladores, por favor ver el Wiki para saber como integrarlo en tu Skin&#10;http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="fr">Développeurs de thème, merci de lire le Wiki afin d'obtenir les informations pour l'intégrer à votre thème : http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="fr_CA">Habilleurs, consultez le wiki pour savoir comment l'intégrer à votre habillage : http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="gl">Autores de temas, por favor vexan a wiki para saber como integralo no seu tema:&#10;http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="ko">스킨 제작자 여러분, 스킨에 통합하는 방법은 위키를 참조하기 바랍니다: http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="lt">Teminių išvaizdų kūrėjai, instrukcijas kaip integruoti šį priedą į jūsų teminę išvaizdą rasite vikio puslapyje: http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="nl">Skinners, bekijk de wikie om te weten hoe je heet moet integreren in jouw skin: http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="pl">Twórcy skór powinni zapoznać się z informacjami na stronach Wiki, aby dowiedzieć więcej o integracji z dodatkiem: http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="pt">Os autores dos temas deverão consultar o wiki para saberem como integrar este add-on no tema: http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="pt_BR">Skinners, por favor veja o wiki para saber como integrar em sua skin:&#10;http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
-    	<disclaimer lang="sv">Skaltillverkare, använd wikin för att se hur du kan integrera det i ditt skal:&#10;http://wiki.kodi.tv/index.php?title=Add-on:VideoExtras</disclaimer>
+    	<disclaimer lang="cs">Tvůrci skinů: https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="de">Skin-Ersteller, bitte schaut für Informationen über die Integration in euren Skin im Wiki:&#10;https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="el">Skinners, ελέγξτε τον ιστότοπο για πληροφορίες σχετικά με την ενσωμάτωση στο κέλυφός σας: https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="en">Skinners, please see the wiki to know how to integrate it in your skin: https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="en_NZ">Skinners, please see the wiki to know how to integrate it in your skin: https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="en_US">Skinners, please see the wiki to know how to integrate it in your skin: https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="es">Desarrolladores, por favor ver el Wiki para saber como integrarlo en tu Skin&#10;https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="fr">Développeurs de thème, merci de lire le Wiki afin d'obtenir les informations pour l'intégrer à votre thème : https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="fr_CA">Habilleurs, consultez le wiki pour savoir comment l'intégrer à votre habillage : https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="gl">Autores de temas, por favor vexan a wiki para saber como integralo no seu tema:&#10;https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="ko">스킨 제작자 여러분, 스킨에 통합하는 방법은 위키를 참조하기 바랍니다: https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="lt">Teminių išvaizdų kūrėjai, instrukcijas kaip integruoti šį priedą į jūsų teminę išvaizdą rasite vikio puslapyje: https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="nl">Skinners, bekijk de wikie om te weten hoe je heet moet integreren in jouw skin: https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="pl">Twórcy skór powinni zapoznać się z informacjami na stronach Wiki, aby dowiedzieć więcej o integracji z dodatkiem: https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="pt">Os autores dos temas deverão consultar o wiki para saberem como integrar este add-on no tema: https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="pt_BR">Skinners, por favor veja o wiki para saber como integrar em sua skin:&#10;https://github.com/robwebset/script.videoextras/wiki</disclaimer>
+    	<disclaimer lang="sv">Skaltillverkare, använd wikin för att se hur du kan integrera det i ditt skal:&#10;https://github.com/robwebset/script.videoextras/wiki</disclaimer>
     	<language></language>
     	<platform>all</platform>
     	<license>See LICENSE.txt</license>
-    	<forum>http://forum.kodi.tv/showthread.php?tid=292722</forum>
+    	<forum></forum>
     	<source>https://github.com/robwebset/script.videoextras</source>
   </extension>
 </addon>
 
-<addon id="service.addonsync" name="AddonSync" version="1.0.3" provider-name="robwebset">
+<addon id="service.addonsync" name="AddonSync" version="100.0.3" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -625,7 +630,7 @@
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292715</forum>
+		<forum></forum>
 		<source>https://github.com/robwebset/service.addonsync</source>
 	</extension>
 </addon>

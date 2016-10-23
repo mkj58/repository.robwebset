@@ -1,35 +1,12 @@
-{{Addon 
-|Name=TvTunes
-|provider-name=robwebset
-|ID=script.tvtunes
-|extension point=xbmc.python.script
-|provides=
-|Summary=Retrieve and play your soundtrack or video themes whilst browsing your library
-|Description=TvTunes is equipped with powerful features that enable the fetching, organising and playing of themes whilst browsing your Kodi library.
-|Platform=all
-|Language=
-|License=GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007
-|Forum=http://forum.kodi.tv/showthread.php?tid=292716
-|Website=
-|Source=https://github.com/robwebset/script.tvtunes
-|Email=
-|broken=
-|icon url=https://github.com/robwebset/script.tvtunes/raw/master/icon.png}}
+[[https://github.com/robwebset/script.tvtunes/raw/master/icon.png]]
 
 == Introduction ==
-You can install this addon from: [[Repository:robwebset]]
-<br />
-<br />
-TvTunes has been around for several years now, and has had several versions. The current version is v6.x.x which will work on Kodi version 15 (Isengard) and later. If you are using an earlier version such as 14 (Helix) or 13 (Gotham) then version 5.0.5 of TvTunes is the latest version available for you. (Note: No development or bug fixes will be submitted to versions of TvTunes before version 6.0.0)
-
-If you have any questions, found an issue to report or would just like to know a little more you can take part in the forum discussions at:
-
-:[http://forum.kodi.tv/showthread.php?tid=214287 TvTunes Forum]
+You can install this addon from: [https://github.com/robwebset/repository.robwebset robwebset Repository]
 <br />
 == Downloading Themes ==
 You can use TvTunes to download themes for you using one of the following methods:
-* Using the TvTunes [[Add-on:TvTunes#Download|Context Menu]] when on a given TV Show or Movie
-* Using the [[Add-on:TvTunes#Theme_Browser|Theme Browser]]
+* Using the TvTunes Context Menu when on a given TV Show or Movie
+* Using the Theme Browser
 * Using the TvTunes button on the Video Information page (If your skin supported this)
 <br />
 TvTunes has the ability to retrieve themes from the web for a given TV Show, Movie or Music Video. The websites currently supported are:
@@ -38,7 +15,7 @@ TvTunes has the ability to retrieve themes from the web for a given TV Show, Mov
 * [http://www.televisiontunes.com televisiontunes.com]
 * [http://www.soundcloud.com soundcloud.com]
 * [http://en.goear.com goear.com]
-TvTunes will search for two specific terms (<title> and <originaltitle> of the video) and will try and automatically filter the results in order to display only the best matches. If you wish to view the un-filtered version of results, then you can make use of the "Manual Search" option within TvTunes.
+TvTunes will search for two specific terms (&lt;title> and &lt;originaltitle> of the video) and will try and automatically filter the results in order to display only the best matches. If you wish to view the un-filtered version of results, then you can make use of the "Manual Search" option within TvTunes.
 
 <small>Obs: As it searches, TvTunes will show a progress bar; please be patient since sometimes the results to be filtered are in the magnitude of thousands.</small>
 
@@ -53,14 +30,12 @@ The priorities in which the filtered results are shown on the entries list are:
 <small>Obs: priority 2 is currently only applicable to Goear retrieved results.</small>
 ==== Tags & Separators ====
 Entries from each scraper are listed using their available tag identifiers (in angled brackets) and separators (in blue), in the following order (identifiers are not always available or properly tagged at the source):
-* Televisiontunes: ''<title name>'' ''<small><span style="color:#A3A7BF">e.g., Jaws</span></small>''
-* Soundcloud: ''<title name>'' '''<span style="color:#0000FF">[</span>'''''hh:mm:ss'''''<span style="color:#0000FF">]</span>''' '''|''' ''<small><span style="color:#A3A7BF">e.g., Jaws Theme Song [00:02:16]</span></small>''
-* Goear: ''<title name>'' '''<span style="color:#0000FF">/</span>''' ''<artist name>'' '''<span style="color:#0000FF">[</span>'''''mm:ss'''''<span style="color:#0000FF">]</span>''' '''<span style="color:#0000FF">(</span>'''''###kbps'''''<span style="color:#0000FF">)</span>''' '''|''' ''<small><span style="color:#A3A7BF">e.g., Jaws Overture / John Williams [2:55] (320kbps)</span></small>''
+* Televisiontunes: ''&lt;title name>'' ''<small>e.g., Jaws</small>''
+* Soundcloud: ''&lt;title name>'' '''['''''hh:mm:ss''''']''' '''|''' ''<small>e.g., Jaws Theme Song [00:02:16]</small>''
+* Goear: ''&lt;title name>'' '''/''' ''&lt;artist name>'' '''['''''mm:ss''''']''' '''('''''###kbps''''')''' '''|''' ''<small>e.g., Jaws Overture / John Williams [2:55] (320kbps)</small>''
 
 ==== International characters ====
-People from all over the world share their themes and hence many different languages are used to tag them. If some of these tags had special characters not compatible with certain Kodi fonts, you would see blank spaces instead. If this happened to you (1<sup>st</sup> item below), all you have to do is switch to a font such as 'arial base' (2<sup>nd</sup> item below) and you will see the missing content:
-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Nausicaä of the Valley) -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Joe Hisaishi [00:03:54]
-* 風の伝説 / 风之谷交响乐(Nausicaä of the Valley) - 久石讓 Joe Hisaishi [00:03:54]
+People from all over the world share their themes and hence many different languages are used to tag them. If some of these tags had special characters not compatible with certain Kodi fonts, you would see blank spaces instead. If this happened to you (1<sup>st</sup> item below), all you have to do is switch to a font such as 'arial base' (2<sup>nd</sup> item below) and you will see the missing content.
 <br />
 
 == Theme Browser ==
@@ -76,7 +51,7 @@ If you are using video themes and are storing them with your main videos (i.e. t
 <source lang="xml">
 <advancedsettings>
     <video>
-        <!-- TvTunes: Section Start -->
+        &lt;!-- TvTunes: Section Start -->
         <excludefromscan action="append">
             <regexp>/Themes/</regexp>
             <regexp>[\\/]Themes[\\/]</regexp>
@@ -87,12 +62,12 @@ If you are using video themes and are storing them with your main videos (i.e. t
             <regexp>[\\/]Themes[\\/]</regexp>
             <regexp>theme([0-9]*)\.(mp4|mkv|avi|mov|MP4|MKV|AVI|MOV)$</regexp>
         </excludetvshowsfromscan>
-        <!-- TvTunes: Section End -->
+        &lt;!-- TvTunes: Section End -->
     </video>
 </advancedsettings>
 </source>
 <br />
-There is also a [[Add-on:TvTunes#Download|button in the TvTunes settings]] that will do this for you.
+There is also a button in the TvTunes settings that will do this for you.
 <br />
 
 == NFO File Support ==
@@ -118,7 +93,7 @@ There can be any number of "file"/"directory"/"playlistfile" elements, where the
 
 '''Smart Playlists:''' To make use of a Smart Playlist in Kodi you can supply just the name of the playlist file (No path) but including the extension ".xsp"
 
-'''Inclusive behavior:'''The tvtunes.nfo files are non-exclusive to any other valid set up through which the audio themes will play in TVTunes, which means that a tvtunes.nfo will follow same location, search and play criteria as described for [[Add-on:TvTunes#Theme_File_Names_and_Locations|'Theme File Names and Locations']], e.g.; any spare audio themes located within the same directory of the tvtunes.nfo will be played along (and shuffled, if option selected) with the themes defined by the latter.
+'''Inclusive behavior:'''The tvtunes.nfo files are non-exclusive to any other valid set up through which the audio themes will play in TVTunes, which means that a tvtunes.nfo will follow same location, search and play criteria as described for 'Theme File Names and Locations', e.g.; any spare audio themes located within the same directory of the tvtunes.nfo will be played along (and shuffled, if option selected) with the themes defined by the latter.
 <br />
 
 == Theme File Names and Locations ==
@@ -157,7 +132,7 @@ There is also a settings option to define a directory (e.g. Themes) under the Mo
 == Screensaver ==
 TvTunes has a companion addon that provides a screensaver that can display images and play themes in the background:
 
-[[Add-on:TvTunesScreensaver|TvTunesScreensaver]]
+[https://github.com/robwebset/screensaver.tvtunes TvTunesScreensaver]
 <br />
 
 == Settings ==
@@ -182,7 +157,6 @@ This section details all the settings options for TvTunes
 :: Play the theme when showing the episodes in a TV Show
 :'''Play themes when browsing Music Library'''
 :: Play a track by the given artist or from the selected album while browsing (This is supported when browsing by Artist or Album)
-| [[File:TvTunes-Settings1.JPG|400px]]
 |}
 
 === Playback ===
@@ -211,7 +185,6 @@ This section details all the settings options for TvTunes
 ::When there are multiple themes, will only play one of them
 :'''Limit track duration when multiple themes (seconds)'''
 ::Only play the given amount of a track before moving to the next track
-| [[File:TvTunes-Settings2.JPG|400px]]
 |}
 
 === Download ===
@@ -245,7 +218,6 @@ This section details all the settings options for TvTunes
 ::Will update (or create if it does not already exist) the advancedsettings.xml file so that your theme files are not accidentally read into the library and incorrectly detected as actual Movies or TV Shows
 :'''Update Confluence Skin'''
 ::Adds a TvTunes button to the Video Information dialog
-| [[File:TvTunes-Settings3.JPG|400px]]
 |}
 
 === File System ===
@@ -265,7 +237,7 @@ This section details all the settings options for TvTunes
 :'''- Repeat Single Audio Theme After Video'''
 ::Only valid when "Play Video Themes First" is set, will play the video theme first, then if there is also an audio theme, will keep repeating just the audio theme
 :'''Block Refresh Rate Change'''
-::If you have the setting to [[Settings/Videos#Playback|"Adjust display refresh rate to match video"]] enabled, then this setting will ignore that setting when playing video themes
+::If you have the setting to "Adjust display refresh rate to match video" enabled, then this setting will ignore that setting when playing video themes
 :<u>'''''Startup'''''</u>
 ::
 :'''Reset Volume On Startup'''
@@ -275,8 +247,7 @@ This section details all the settings options for TvTunes
 :<u>'''''Debugging'''''</u>
 ::
 :'''Enable debug logging'''
-::Enables TvTunes debug logging (Required if reporting a problem) - for this to work, system-wide Kodi [[Settings/System#Debugging|logging]] must also be enabled
-| [[File:TvTunes-Settings4.JPG|400px]]
+::Enables TvTunes debug logging (Required if reporting a problem) - for this to work, system-wide Kodi logging must also be enabled
 |}
 
 <br />
@@ -359,20 +330,11 @@ There is an issue with storing all the themes in a custom path if you use TvTune
 
 === Video Themes And Looping ===
 If you have a video theme and set it to loop then when it starts the second playing of a video theme, it will flash up full screen. This is a Kodi issue detailed on the following bug report: [http://trac.kodi.tv/ticket/16013 TRAC-16013]
-
 <br />
 
 == Debugging ==
 If reporting a problem, please also provide a debug log. To do this you need to enable BOTH:
-* Kodi [[Settings/System#Debugging|logging]] from the main setting menu
+* Kodi logging from the main setting menu
 * TvTunes debug from the TvTunes addon settings menu
 Please do not paste the log into the forum thread, just link to it.
-<br />
-
-== Donations ==
-If you have found TvTunes useful and would like to help support future development and bug fixes, then please feel free to make a small donation.
-<br />
-<br />
-Please use the link on the top of the [http://forum.kodi.tv/showthread.php?tid=214287 TvTunes Forum]
-<br />
 <br />

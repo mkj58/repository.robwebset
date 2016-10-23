@@ -1,93 +1,56 @@
-{{Addon 
-|Name=VideoExtras
-|provider-name=robwebset
-|ID=script.videoextras
-|extension point=xbmc.python.script
-|provides=
-|Summary=Add Video Extras to your Movies and TV shows.
-|Description=Provides a way to add Video Extras to your Video library. Look at the wiki for setup instructions.
-|Platform=all
-|Language=
-|License=GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007
-|Forum=http://forum.kodi.tv/showthread.php?tid=292722
-|Website=
-|Source=https://github.com/robwebset/script.videoextras
-|Email=
-|broken=
-|icon url=https://github.com/robwebset/script.videoextras/raw/master/icon.png}}
+[[https://github.com/robwebset/script.videoextras/raw/master/icon.png]]
 
-<!-- Page content goes here -->
 == Introduction ==
-You can install this addon from: [[Repository:robwebset]]
+You can install this addon from: [https://github.com/robwebset/repository.robwebset robwebset Repository]
 <br />
 <br />
 VideoExtras is an addon to allow you to store, list and play the "extras" for a given Movie or TV Series. (i.e. The extras that often come on DVD's or Blu-Rays)
 
 :''Note:'' This Addon will allow you to view the Extras Videos you already own - it will NOT download extras for you from the internet. (Although there is an option to use YouTube and Vimeo to search and view for extra video content)
 <br />
-== Forum and Issue Report Pages ==
-If you have any questions, found an issue to report or would just like to know a little more you can take part in the forum discussions at:
 
-:[http://forum.kodi.tv/showthread.php?tid=214289 VideoExtras Forum]
-
-<br />
 == Quickstart Guide ==
 This Quickstart guide is aimed at first time users of VideoExtras, who also have some freedom to re-arrange their video content to fit best with VideoExtras.
-==== Install VideoExtras ====
-VideoExtras is no longer in the official repo, you can install it from [[Repository:robwebset]]
-
 ==== Arranging Your Video Files ====
 Although VideoExtras will support most structures (with various configuration changes), the easiest and best structure is as follows:
 
-:''../<Movie Name>/<movie name>.ext''
-:''../<Movie Name>/Extras/<extras name 1>.ext''
-:''../<Movie Name>/Extras/<extras name 2>.ext''
+:''../&lt;Movie Name>/&lt;movie name>.ext''
+:''../&lt;Movie Name>/Extras/&lt;extras name 1>.ext''
+:''../&lt;Movie Name>/Extras/&lt;extras name 2>.ext''
 :''...''
 :where .ext is any video extension compatible with Kodi
-More details of extras setup can be found in the [[Add-on:VideoExtras#File_Naming_Convention|File Naming Convention Section]]
+More details of extras setup can be found in the File Naming Convention Section
 
 ==== Stopping The Extras Being Scanned Into Your Library ====
-Now that you have copied your Extras files into the correct directories, you do not want them to be accidently picked up/scanned as a Movie or TV Series in their own right. To stop this you need to add "excludes" into the advancedsettings.xml file. This can be done for you by clicking on the [[Add-on:VideoExtras#Extras|"Update advancedsettings.xml File"]] operation on the first tab of the VideoExtras settings, or you could always do it yourself [[Add-on:VideoExtras#Kodi_File_Exclusions|manually]].
+Now that you have copied your Extras files into the correct directories, you do not want them to be accidently picked up/scanned as a Movie or TV Series in their own right. To stop this you need to add "excludes" into the advancedsettings.xml file. This can be done for you by clicking on the "Update advancedsettings.xml File" operation on the first tab of the VideoExtras settings, or you could always do it yourself manually.
 ==== Scanning Media Into Your Library ====
 Once you have updated the advancedsettings.xml file it should now be safe to perform any scans you wish to pull media into your library. At this point, the scanner should skip over any Extras files.
 ==== Viewing Your Extras ====
 In order to view the Extras you have now stored with your Movies or TV Shows you will need one of the following 2 things:
-* To update the default Confluence Skin, this can either be done [[Add-on:VideoExtras#Skin_Modifications|manually]] or by navigating to the Advanced tab of the VideoExtras settings and clicking on [[Add-on:VideoExtras#Advanced|"Update Confluence Skin"]].
-* Use one of the non default [[Add-on:VideoExtras#Skins_With_Build_In_Support|skins that has built in support]] for VideoExtras
+* To update the default Confluence Skin, this can either be done manually or by navigating to the Advanced tab of the VideoExtras settings and clicking on "Update Confluence Skin".
+* Use one of the non default skins that has built in support for VideoExtras
 ==== You Are Now Up And Running ====
-That's it! You should now be able to navigate to your extras by either going to the Video Information Dialog for the given video, or by going via: ''[[Add-on:VideoExtras#Video_Extras_Browser|Videos -> Addons -> VideoExtras]]''
+That's it! You should now be able to navigate to your extras by either going to the Video Information Dialog for the given video, or by going via: 'Videos -> Addons -> VideoExtras''
 <br />
-There are plenty more things you can do to improve your user experience such as adding [[Add-on:VideoExtras#Images:_Thumbnails.2C_Icons_and_Fanart|icons/fanart/thumbnails]] or giving detailed [[Add-on:VideoExtras#NFO_Files|titles or plots]]. However, this is a quickstart guide, and you should take a look at the rest of the wiki for those features.
+There are plenty more things you can do to improve your user experience such as adding icons/fanart/thumbnails or giving detailed titles or plots. However, this is a quickstart guide, and you should take a look at the rest of the wiki for those features.
 <br />
 <br />
 == Using VideoExtras ==
-Now that you have [[Add-on:VideoExtras#Quickstart_Guide|configured]] VideoExtras, you can start using it. If you are using Confluence with the supplied [[Add-on:VideoExtras#Viewing_Your_Extras|Confluence update]] then any Movies or TV Shows that have extras will be highlighted with an overlay image:
-<center><br />[[File:VideoExtras-ThumbnailOverlay.JPG|VideoExtras Overlay|center|thumb|200px]]</center>
-<br />Then if you navigate into the Video Information Screen you should see an Extras button available:
-<center><br />[[File:VideoExtras-VideoInfoDialog.JPG|VideoExtras Button (Video Information Screen)|center|thumb|400px]]</center>
-<br />Selecting this button will then result in seeing the list of extras available:
-<center><br />[[File:VideoExtras-DetailedListScreen.JPG|VideoExtras - Extras list|center|thumb|400px]]</center>
+Now that you have configured VideoExtras, you can start using it. If you are using Confluence with the supplied Confluence update then any Movies or TV Shows that have extras will be highlighted with an overlay image.
 <br />
-<br />
-
 == Video Extras Browser ==
 The VideoExtras browser allows you to view all the Movies/Tv Shows/Music Videos that have extras, and then watch those extras. You can load the extras browser in the following ways:
-# Via the [[Add-on:VideoExtras#Database|VideoExtras Settings screen]] "Database" -> "Browse Extras"
+# Via the VideoExtras Settings screen "Database" -> "Browse Extras"
 # From the Programs Menu -> VideoExtras
 # Videos -> Addons -> VideoExtras
-<br />
 <br />
 == Online Video Platforms Support ==
 {| border="0"
 |- valign=top
 |
-It you have the '''[[Add-on:YouTube|YouTube]]''' or '''[[Add-on:Vimeo|Vimeo]]''' addons installed and the options enabled in the [[Add-on:VideoExtras#Advanced|settings]] you can be forwarded directly to the videos that would result in a search of "<Movie Name> Extras", or by calling up the context menu there are options to search for other parameters.
-|[[File:VideoExtras Youtube Support.png|VideoExtras Youtube Support|right|thumb|400px]]
-[[File:VideoExtras Vimeo Support.png|VideoExtras Vimeo Support|right|thumb|400px]]
+It you have the '''YouTube''' or '''Vimeo''' addons installed and the options enabled in the settings you can be forwarded directly to the videos that would result in a search of "&lt;Movie Name> Extras", or by calling up the context menu there are options to search for other parameters.
 |}
 <br />
-<br />
-
 == Settings ==
 This section details all the settings options for VideoExtras
 ==== Extras ====
@@ -112,7 +75,6 @@ This section details all the settings options for VideoExtras
 ::
 :'''Update advancedsettings.xml File'''
 ::Will update (or create if it does not already exist) the advancedsettings.xml file so that your extras files are not accidently read into the library and incorrectly detected as actual Movies or TV Shows
-| [[File:VideoExtras-Settings1.JPG|VideoExtras Settings - Extras tab|right|thumb|400px]]
 |}
 
 ==== File System ====
@@ -133,7 +95,6 @@ This section details all the settings options for VideoExtras
 ::
 :'''Enable Debug logging'''
 ::Enables VideoExtras debug logging into the Kodi log file
-| [[File:VideoExtras-Settings2.JPG|VideoExtras Settings - File System tab|right|thumb|400px]]
 |}
 
 ==== Database ====
@@ -150,7 +111,6 @@ This section details all the settings options for VideoExtras
 ::Clears the extras database (resets all play states for the extras) - Note: This does not do anything to the default Kodi database.
 :'''Browse Extras'''
 ::Loads the Video Extras Browser plugin.
-| [[File:VideoExtras-Settings3.JPG|VideoExtras Settings - Database tab|right|thumb|400px]]
 |}
 
 ==== Advanced ====
@@ -158,9 +118,9 @@ This section details all the settings options for VideoExtras
 |- valign=top
 |
 :'''Enable YouTube Search Support'''
-::Enabling this option will allow you to search for extra content for your video on YouTube (Requires the [[Add-on:YouTube|YouTube]] add-on)
+::Enabling this option will allow you to search for extra content for your video on YouTube (Requires the YouTube add-on)
 :'''Enable Vimeo Search Support'''
-::Enabling this option will allow you to search for extra content for your video on Vimeo (Requires the [[Add-on:Vimeo|Vimeo]] add-on)
+::Enabling this option will allow you to search for extra content for your video on Vimeo (Requires the Vimeo add-on)
 :'''Force Extras Button Display'''
 ::Will always display the "Extras" button on the Video Information screen (Normal behaviour is to only show the button if there are extra's detected for the given video.
 :'''Exclude Files Regular Expression'''
@@ -177,7 +137,6 @@ This section details all the settings options for VideoExtras
 ::
 :'''Update Confluence Skin'''
 ::Will add VideoExtras support to the default confluence skin
-| [[File:VideoExtras-Settings4.JPG|VideoExtras Settings - Advanced tab|right|thumb|400px]]
 |}
 <br />
 <br />
@@ -192,13 +151,13 @@ If you put all of your movies in their own folder you can simply add an "Extras"
 <br />
 === Same Directory (Tagging) ===
 
-If for some reason you don't want to create an "Extras" folder or you want to associate a bonus feature with a specific TV show episode there is an alternative naming convention which uses tagging. Simply use the same name as the file you want to associate the extra feature with and then append "-extras-" followed immediately (no spaces) by the name you want to displayed on the GUI for the extra, e.g. ''<main video name>-extras-<displayed name>.mkv'' . This default tag "-extras-" can be changed via the settings menu and MUST be turned on in order for the tagging to work.
+If for some reason you don't want to create an "Extras" folder or you want to associate a bonus feature with a specific TV show episode there is an alternative naming convention which uses tagging. Simply use the same name as the file you want to associate the extra feature with and then append "-extras-" followed immediately (no spaces) by the name you want to displayed on the GUI for the extra, e.g. ''&lt;main video name>-extras-&lt;displayed name>.mkv'' . This default tag "-extras-" can be changed via the settings menu and MUST be turned on in order for the tagging to work.
 
 This method will work whether your movies are in their own self-contained folder or all together in one folder only.
 
 '''Example:''' So if you wanted to associate an Extended Pilot feature with the first episode of a tv show named "s1e1.mkv", you would create a file name "s1e1-extras-Extended Pilot.mkv". When the script displays this file in the UI it will strip out all the extra stuff and just show "Extended Pilot". To customize the displayed order here you can use NFO files or manual mode, just as in folder mode. Example of manual mode: "s1e1-extras-[#]Extended Pilot.mkv" where # is a number from 1 to 99.
 
-'''Warning:''' if you don't append the <displayed name> after the tag -extras-, the file name will be displayed on the GUI instead, including the tag -extras-.
+'''Warning:''' if you don't append the &lt;displayed name> after the tag -extras-, the file name will be displayed on the GUI instead, including the tag -extras-.
 <br />
 
 === Remote Location ===
@@ -222,13 +181,13 @@ Note: When using a custom path VideoExtras will first check for a directory name
 * Non ascii characters are removed
 <br />
 <br />
-With this method (based on where this root directory is), there may not be a need to add the "File Exclusions" section into [http://kodi.wiki/view/Advancedsettings.xml advanced settings].
+With this method (based on where this root directory is), there may not be a need to add the "File Exclusions" section into advanced settings.
 <br />
 <br />
 
 == Kodi File Exclusions ==
 
-Since these are video files sprinkled in among all of your other video files we need to tell the kodi scanner to ignore these files. If we don't then the scanner will try and match them up with one of the online sites and you probably won't be happy with the results. To do this we just need to add some new regular expressions to the [http://kodi.wiki/view/Advancedsettings.xml advanced settings]. This can be done for you by clicking on the [[Add-on:VideoExtras#Extras|"Update advancedsettings.xml File"]] operation on the first tab of the VideoExtras settings, or you can do this manually using some of the information below. It is recommended to add these settings and reboot Kodi for them to take effect BEFORE any library scan takes place, so the scanner doesn't try to parse them.
+Since these are video files sprinkled in among all of your other video files we need to tell the kodi scanner to ignore these files. If we don't then the scanner will try and match them up with one of the online sites and you probably won't be happy with the results. To do this we just need to add some new regular expressions to the advanced settings. This can be done for you by clicking on the "Update advancedsettings.xml File" operation on the first tab of the VideoExtras settings, or you can do this manually using some of the information below. It is recommended to add these settings and reboot Kodi for them to take effect BEFORE any library scan takes place, so the scanner doesn't try to parse them.
 
 <source lang="xml">
 <advancedsettings>
@@ -266,24 +225,22 @@ Obs.:
 === Custom Artwork ===
 In order to have thumbnails or custom fanart images displayed on your Extras listings (and player overlay) you can either reference them via an NFO file (see NFO section), or by having the image in the same directory as the extras file. Images referenced via NFO (locally or remotely) will have priority over any other. Thumbnail/icon images in the same directory as extras will be picked up in the following order:
 
-* <filename>.tbn/png/jpg
-* <filename>-poster.tbn/png/jpg
-* <filename>-thumb.tbn/png/jpg
+* &lt;filename>.tbn/png/jpg
+* &lt;filename>-poster.tbn/png/jpg
+* &lt;filename>-thumb.tbn/png/jpg
 * poster.tbn/png/jpg (assigns same thumb to all those extras without one) 
 * folder.tbn/png/jpg (assings same thumb to all those extras without one)
 
 For fanart, the images are picked up in the following order :
-* <filename>-fanart.tbn/png/jpg
+* &lt;filename>-fanart.tbn/png/jpg
 * fanart.tbn/png/jpg
 
-<small>obs: should you experience image caching persistency of old <filename>-poster/thumb.ext after replacing them by new ones at folder level, this is due to the way Kodi handles the caching of certain images. If you need an immediate solution and don't want to wait for Kodi to cache the new images, there is a script available that solves this issue at database level [http://Just%20to%20help%20with%20the%20cleansing%20of%20thumbs%20cached%20in%20XBMC%20to%20allow%20VideoExtras%20to%20display%20updated%20thumbs%20for%20your%20extras here] called Texture Cache Maintenance utility by MilhouseVH. There aren't cases reported of image caching persistency when using the naming convention <filename>.tbn/png/jpg</small>
+<small>obs: should you experience image caching persistency of old &lt;filename>-poster/thumb.ext after replacing them by new ones at folder level, this is due to the way Kodi handles the caching of certain images. If you need an immediate solution and don't want to wait for Kodi to cache the new images, there is a script available that solves this issue at database level called Texture Cache Maintenance utility by MilhouseVH. There aren't cases reported of image caching persistency when using the naming convention &lt;filename>.tbn/png/jpg</small>
 
 === Default Artwork ===
 * '''If no custom fanart:''' fanart is automatically inherited from the parent video file, if there's any.
 * '''If no custom thumb (poster):''' default thumb is VideoExtras image icon and will only be displayed in the video overlay whilst playing the extra and not in the extras list. 
 <br />
-<br />
-
 == NFO Files ==
 
 The recommended method to give a name or sort order to your "Extras" is to add an NFO for each extra file. This follows the standard Kodi method of having the same name as the file with the extension being replaced with ".nfo" (Sitting in the same directory as the original file). This nfo can take any of the followoing formats (These are in line with the default Kodi behaviour), additional data in these files will be ignored as it is not relevant for the extras file. (Note: The only mandatory element is the "title")
@@ -360,33 +317,33 @@ The following skins (except Confluence, since it requires the hooks) have built-
 |-
 ! Skin !! Hook Support !! Detailed Screen Support !! Detailed Screen Skin Location !! Hooks Location
 |-
-| [[Add-on:Confluence|Confluence]] || <center>No</center>|| <center>Yes</center> || <center>VideoExtras</center> || <center>[https://github.com/xbmc/xbmc/blob/master/addons/skin.confluence/720p/DialogVideoInfo.xml DialogVideoInfo.xml]</center>
+| Confluence || <center>No</center>|| <center>Yes</center> || <center>VideoExtras</center> || <center>DialogVideoInfo.xml</center>
 |-
 | [http://forum.kodi.tv/showthread.php?tid=145080 Confluence Modified] || <center>Yes</center> || <center>Yes</center> || <center>VideoExtras</center>
 |-
-| [http://forum.kodi.tv/showthread.php?tid=139712 Immersive] || <center>Yes</center> || <center>Yes</center> || <center>Immersive</center> || <center>[https://github.com/Sranshaft/skin.immersive/blob/master/720p/DialogVideoInfo.xml DialogVideoInfo.xml]</center>
+| [http://forum.kodi.tv/showthread.php?tid=139712 Immersive] || <center>Yes</center> || <center>Yes</center> || <center>Immersive</center> || <center>DialogVideoInfo.xml</center>
 |-
 | [http://forum.kodi.tv/showthread.php?tid=165481 Xperience1080++] || <center>Yes</center> || <center>Yes</center> || <center>Xperience1080++</center> || <center></center>
 |-
-| [[Add-on:Aeon_MQ_5|Aeon MQ 5]] || <center>Yes</center> || <center>Yes</center> || <center>VideoExtras</center> || <center></center>
+| Aeon MQ 5 || <center>Yes</center> || <center>Yes</center> || <center>VideoExtras</center> || <center></center>
 |-
-| [[Add-on:Aeon_Nox|Aeon Nox 5]] || <center>Yes</center> || <center>Yes</center> || <center>VideoExtras</center> || <center>[https://github.com/BigNoid/Aeon-Nox/blob/master/1080i/custom_1119_ExtrasDialog.xml custom_1119_ExtrasDialog.xml]</center>
+| Aeon Nox 5 || <center>Yes</center> || <center>Yes</center> || <center>VideoExtras</center> || <center>custom_1119_ExtrasDialog.xml</center>
 |-
 | [http://forum.kodi.tv/showthread.php?tid=185290 Aeon Nox 4.1.9.x] || <center>Yes</center> || <center>Yes</center> || <center>Aeon Nox 4.1.9.x</center> || <center></center>
 |-
-| [[Add-on:Rapier|Rapier]] || <center>Yes</center> || <center>Yes</center> || <center>Rapier</center> || <center></center>
+| Rapier || <center>Yes</center> || <center>Yes</center> || <center>Rapier</center> || <center></center>
 |-
 | [http://forum.kodi.tv/showthread.php?tid=170954 Artic mk. ii] || <center>Yes</center> || <center>Yes</center> || <center>Artic</center> || <center></center>
 |-
-| [[Add-on:Metropolis| Metropolis]] ([http://forum.kodi.tv/showthread.php?tid=99317&pid=1726112#pid1726112 coming soon!]) || <center></center> || <center></center> || <center></center> || <center></center>
+| Metropolis ([http://forum.kodi.tv/showthread.php?tid=99317&pid=1726112#pid1726112 coming soon!]) || <center></center> || <center></center> || <center></center> || <center></center>
 |-
-| [[Add-on:XTV-SAF| xTV-SAF]] || <center>Yes</center> || <center>Yes</center> || <center>VideoExtras</center> || <center></center>
+| xTV-SAF || <center>Yes</center> || <center>Yes</center> || <center>VideoExtras</center> || <center></center>
 |-
-| [[Add-on:Transparency!|Transparency!]] || <center>Yes</center> || <center>Yes</center> || <center>VideoExtras</center> || <center>[https://github.com/ronie/skin.transparency/blob/master/720p/custom_DialogExtras.xml custom_DialogExtras.xml]</center>
+| Transparency! || <center>Yes</center> || <center>Yes</center> || <center>VideoExtras</center> || <center>custom_DialogExtras.xml</center>
 |-
-| [[Add-on:Titan MediaBrowser| Titan MediaBrowser]] || <center>Yes</center> || <center>Yes</center> || <center>VideoExtras</center> || <center></center>
+| Titan MediaBrowser || <center>Yes</center> || <center>Yes</center> || <center>VideoExtras</center> || <center></center>
 |-
-| [[Add-on:Black_Glass_Nova|Black Glass Nova 3.x]] || <center>Yes</center> || <center>Yes</center> || <center>Black Glass Nova</center> || <center>[https://github.com/Tgxcorporation/skin.blackglassnova/blob/master/1080i/DialogVideoInfo.xml DialogVideoInfo.xml]</center>
+| Black Glass Nova 3.x || <center>Yes</center> || <center>Yes</center> || <center>Black Glass Nova</center> || <center>DialogVideoInfo.xml</center>
 |-
 |}
 <br />
@@ -395,17 +352,12 @@ If your skin does not support the "Detailed List Screen", then you can either:
 # Convert the Window XML file in the addon and post a link to it in the forum.
 # Use the default "Detailed List Screen" (May not fit in visually with the skin you are using)
 
-<small>Obs: due to a natural delay between the dates of release of possible latest features (and fixed issues too) and actual implementation of these updates in the supported skins, such as support for Music Videos, these skins may still require some manual changes as per [[Add-on:VideoExtras#Skin_Modifications|item 10.2]] in certain skins with built-in support.</small>
+<small>Obs: due to a natural delay between the dates of release of possible latest features (and fixed issues too) and actual implementation of these updates in the supported skins, such as support for Music Videos, these skins may still require some manual changes as per item 10.2 in certain skins with built-in support.</small>
 <br />
 <br />
 
 === Confluence Skin Support ===
-A request has been made to the Kodi official repo to have VideoExtras included in the Confluence skin:
-    https://github.com/xbmc/xbmc/pull/4827
-Unfortunately this did not get approved to go into the official repository.
-<br />
-<br />
-Instead of this, there is an option that will update the Confluence skin for you in the settings. Just navigate to the [[Add-on:VideoExtras#Advanced|"Update Confluence Skin"]] operation in the VideoExtras settings.
+There is an option that will update the Confluence skin for you in the settings. Just navigate to the "Update Confluence Skin" operation in the VideoExtras settings.
 <br />
 <br />
 
@@ -414,14 +366,14 @@ For this update to work, the directory containing the Confluence skin must have 
 * ''' on Windows Vista, 7 and 8.x:''' right click Kodi and select "Run As administrator" and (if it prompts), click "Yes". Then navigate to the "Update Confluence Skin" operation in the VideoExtras settings. (If you select this option without doing a "run as administrator", it will say that it has updated the file successfully, but actually it won't.) - This is believed to only be an issue if you have "User Access Control" enabled<br />
 
 As Confluence is the default skin, its directory is not user-modifiable on non-Windows systems. To get around this, it is recommended to copy the Confluence skin's directory from it's existing location to the standard location for user installed add-ons:<br />
-* '''On Ubuntu Linux:''' the operation would be to copy the directory "/usr/share/kodi/addons/skin.confluence/" to "/home/<username>/.kodi/addons/".<br />
+* '''On Ubuntu Linux:''' the operation would be to copy the directory "/usr/share/kodi/addons/skin.confluence/" to "/home/&lt;username>/.kodi/addons/".<br />
 Upon restarting Kodi, you should now be able to use the "Update Confluence Skin" feature.<br />
 <br />
 
 === Skin Modifications ===
 A skin modification is required in order to see the extras button in the UI and enjoy all the features. This is a fairly simple process but will depend on your selected skin. The file that needs modified is DialogVideoInfo.xml. The following code is needed for the default confluence skin, which would result in the new, [https://dl.dropboxusercontent.com/u/56161346/XBMC/VideoExtras/DialogVideoInfo%20062015/DialogVideoInfo.xml modified DialogVideoInfo.xml] (as per June 2015) with support for VideoExtras:
 
-Add to the top of the file (after <window>):
+Add to the top of the file (after &lt;window>):
 <source lang="xml">
 <onload condition="System.HasAddon(script.videoextras)">
     RunScript(script.videoextras,check,"$INFO[ListItem.FilenameAndPath]")</onload>
@@ -446,12 +398,12 @@ You should be able to use something similar for other skins.
 ==== Location of XML ====
 The DialogVideoInfo.xml's location listed by skin:
 ;Confluence
-* '''Ubuntu Linux:''' /home/<username>/.kodi/addons/skin.confluence/720p/
+* '''Ubuntu Linux:''' /home/&lt;username>/.kodi/addons/skin.confluence/720p/
 * '''Ubuntu Linux (alternative):''': /usr/share/kodi/addons/skin.confluence/720p/
 * '''OS X:''' /Applications/Kodi.app/Contents/Resources/Kodi/addons/skin.confluence/720p
 * '''Windows 7/8.1:''' Program Files (x86)\Kodi\addons\skin.confluence\720p
 ;Aeon Nox 4
-* '''Ubuntu Linux:''' /home/<username>/.kodi/addons/skin.aeon.nox/1080i/
+* '''Ubuntu Linux:''' /home/&lt;username>/.kodi/addons/skin.aeon.nox/1080i/
 * '''Windows 7/8.1:''' Program Files (x86)\Kodi\addons\skin.aeon.nox\1080i\
 
 <small>Obs.: Remember to create a backup of any file before altering it i.e. DialogVideoInfo.xml.old.</small>
@@ -481,10 +433,10 @@ This example would possibly be added to the confluence skin at line 554 to add a
 | musicvideos|| Container.Content(MusicVideos)
 |}
 
-Where the first column supplies the value used in the <texture> element, and the second for the <visible> element.
+Where the first column supplies the value used in the &lt;texture> element, and the second for the &lt;visible> element.
 <br />
 <br />
-There is a default image that is used to represent the existance of Video Extras, but this can be overridden by the skin by putting a file called "videoextras_overlay.png" in the skins "media" directory, or by updating the [[Add-on:VideoExtras#Advanced|VideoExtras settings]].
+There is a default image that is used to represent the existance of Video Extras, but this can be overridden by the skin by putting a file called "videoextras_overlay.png" in the skins "media" directory, or by updating the VideoExtras settings.
 <br />
 <br />
 IMPORTANT: This is for advanced skinners only, please only post on the forum if you '''own the skin you are trying to update''' - this is because it will require lots of changes to patch an existing skin, and this feature is only intended to support skins that will support VideoExtras "Out Of The Box".
@@ -510,16 +462,5 @@ The Videos -> Addon -> VideoExtras Youtube route seems to work how you would exp
 
 == Debugging ==
 If reporting a problem, please also provide a debug log. To do this you need to enable BOTH:
-* Kodi [[Settings/System#Debugging|logging]] from the main setting menu
+* Kodi logging from the main setting menu
 * VideoExtras debug from the VideoExtras addon settings menu
-Please do not paste the log into the forum thread, just link to it.
-<br />
-<br />
-
-== Donations ==
-If you have found VideoExtras useful and would like to help support future development and bug fixes, then please feel free to make a small donation.
-<br />
-<br />
-Please use the link on the top of the [http://forum.kodi.tv/showthread.php?tid=214289 VideoExtras Forum]
-<br />
-<br />

@@ -1,30 +1,11 @@
-{{Addon 
-|Name=WeatherScreensaver
-|provider-name=robwebset
-|ID=screensaver.weather
-|extension point=xbmc.ui.screensaver
-|provides=
-|Summary=Weather Screensaver
-|Description=Screensaver that displays the weather.
-|Platform=all
-|Language=
-|License=GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007
-|Forum=http://forum.kodi.tv/showthread.php?tid=292709
-|Website=
-|Source=https://github.com/robwebset/screensaver.weather
-|Email=
-|broken=
-|icon url=https://github.com/robwebset/screensaver.weather/raw/master/icon.png}}
+[[https://github.com/robwebset/screensaver.weather/raw/master/icon.png]]
 
-<!-- Page content goes here -->
 == Introduction ==
-You can install this addon from: [[Repository:robwebset]]
-<br />
+You can install this addon from: [https://github.com/robwebset/repository.robwebset robwebset Repository]
 <br />
 The WeatherScreensaver is an addon that you can select as your screensaver and will display the weather screen in Kodi.
 
-It will display whichever Weather add-on you have configured via the [[Weather|Kodi System Settings]].
-<br />
+It will display whichever Weather add-on you have configured via the Kodi System Settings.
 <br />
 == Settings ==
 === Screensaver ===
@@ -37,21 +18,11 @@ It will display whichever Weather add-on you have configured via the [[Weather|K
 ::
 :'''Enable Debug logging'''
 ::Enables WeatherScreensaver debug logging into the Kodi log file
-| [[File:WeatherScreensaver-Settings1.JPG|400px]]
 |}
-<br />
 <br />
 == Debugging ==
 If reporting a problem, please also provide a debug log. To do this you need to enable BOTH:
-* Kodi [[Settings/System#Debugging|logging]] from the main setting menu
+* Kodi logging from the main setting menu
 * WeatherScreensaver debug from the WeatherScreensaver addon settings menu
 Please do not paste the log into the forum thread, just link to it.
-<br />
-<br />
-== Donations ==
-If you have found the WeatherScreensaver Addon useful and would like to help support future development and bug fixes, then please feel free to make a small donation.
-<br />
-<br />
-Please use the link on the top of the [http://forum.kodi.tv/showthread.php?tid=233520 WeatherScreensaver Forum]
-<br />
 <br />

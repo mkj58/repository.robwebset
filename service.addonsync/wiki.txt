@@ -1,24 +1,7 @@
-{{Addon 
-|Name=AddonSync
-|provider-name=robwebset
-|ID=service.addonsync
-|extension point=xbmc.service
-|provides=
-|Summary=Synchronise Addon Settings Between Different Installations
-|Description=Keep all Addon settings in sync across all of your installations
-|Platform=all
-|Language=
-|License=GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007
-|Forum=http://forum.kodi.tv/showthread.php?tid=292715
-|Website=
-|Source=https://github.com/robwebset/service.addonsync
-|Email=
-|broken=
-|icon url=https://github.com/robwebset/service.addonsync/raw/master/icon.png}}
+[[https://github.com/robwebset/service.addonsync/raw/master/icon.png]]
 
-<!-- Page content goes here -->
 == Introduction ==
-You can install this addon from: [[Repository:robwebset]]
+You can install this addon from: [https://github.com/robwebset/repository.robwebset robwebset Repository]
 <br />
 <br />
 The AddonSync service allows you to set one of your Kodi installations as the "Master" and have all the other installations be Slaves. Then you can have the master installation upload to a network share, and the slave installation download them.
@@ -57,12 +40,11 @@ There are some addons that will not be sync'ed between installations, this is no
 :<u>'''''Debugging'''''</u>
 ::
 :'''Enable debug logging'''
-::Enables AddonSync debug logging (Required if reporting a problem) - for this to work, system-wide Kodi [[Settings/System#Debugging|logging]] must also be enabled
+::Enables AddonSync debug logging (Required if reporting a problem) - for this to work, system-wide Kodi logging must also be enabled
 :<u>'''''Operations'''''</u>
 ::
 :'''Run Synchronisation Now'''
 ::Manually run the synchronise operation
-| [[File:AddonSync-Settings1.JPG|400px]]
 |}
 === Filter ===
 {| border="0"
@@ -72,22 +54,14 @@ There are some addons that will not be sync'ed between installations, this is no
 ::Allows either All addons to be synchronise, or to include/exclude a set of addons
 :'''Select Addons'''
 ::If not all addons are being synchronised, then selectes those that are included/excluded
-| [[File:AddonSync-Settings2.JPG|400px]]
 |}
 
 <br />
 <br />
 == Debugging ==
 If reporting a problem, please also provide a debug log. To do this you need to enable BOTH:
-* Kodi [[Settings/System#Debugging|logging]] from the main setting menu
+* Kodi logging from the main setting menu
 * AddonSync debug from the AddonSync addon settings menu
 Please do not paste the log into the forum thread, just link to it.
-<br />
-<br />
-== Donations ==
-If you have found the AddonSync Addon useful and would like to help support future development and bug fixes, then please feel free to make a small donation.
-<br />
-<br />
-Please use the link on the top of the [http://forum.kodi.tv/showthread.php?tid=260802 AddonSync Forum]
 <br />
 <br />

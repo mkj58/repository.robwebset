@@ -2,27 +2,27 @@
 
 The robwebset repo (as the name suggests) stores all the addons written by me (robwebset), these include:
 
-* [AddonSync](http://forum.kodi.tv/showthread.php?tid=292715)
-* [AudioBooks](http://forum.kodi.tv/showthread.php?tid=292711)
-* [eBooks](http://forum.kodi.tv/showthread.php?tid=292727)
-* [FilmWise](http://forum.kodi.tv/showthread.php?tid=292729)
-* [PinSentry](http://forum.kodi.tv/showthread.php?tid=292719)
-* [RandomScreensaver](http://forum.kodi.tv/showthread.php?tid=292710)
-* [Recap](http://forum.kodi.tv/showthread.php?tid=292728)
-* [Sleep](http://forum.kodi.tv/showthread.php?tid=292726)
-* [Sonos](http://forum.kodi.tv/showthread.php?tid=292713)
-* [Suitability](http://forum.kodi.tv/showthread.php?tid=292724)
-* [TvTunes](http://forum.kodi.tv/showthread.php?tid=292716)
-* [TvTunesScreensaver](http://forum.kodi.tv/showthread.php?tid=292714)
-* [VideoExtras](http://forum.kodi.tv/showthread.php?tid=292722)
-* [VideoScreensaver](http://forum.kodi.tv/showthread.php?tid=292708)
-* [WeatherScreensaver](http://forum.kodi.tv/showthread.php?tid=292709)
+* [AddonSync](https://github.com/robwebset/service.addonsync)
+* [AudioBooks](https://github.com/robwebset/script.audiobooks)
+* [eBooks](https://github.com/robwebset/script.ebooks)
+* [FilmWise](https://github.com/robwebset/script.game.filmwise)
+* [PinSentry](https://github.com/robwebset/script.pinsentry)
+* [RandomScreensaver](https://github.com/robwebset/screensaver.random)
+* [Recap](https://github.com/robwebset/script.recap)
+* [Sleep](https://github.com/robwebset/script.sleep)
+* [Sonos](https://github.com/robwebset/script.sonos)
+* [Suitability](https://github.com/robwebset/script.suitability)
+* [TvTunes](https://github.com/robwebset/script.tvtunes)
+* [TvTunesScreensaver](https://github.com/robwebset/screensaver.tvtunes)
+* [VideoExtras](https://github.com/robwebset/script.videoextras)
+* [VideoScreensaver](https://github.com/robwebset/screensaver.video)
+* [WeatherScreensaver](https://github.com/robwebset/screensaver.weather)
 
 Repository Zip: [repository.robwebset-1.0.0.zip](https://github.com/robwebset/repository.robwebset/blob/master/repos/repository.robwebset/repository.robwebset-1.0.0.zip) 
 
 More details for the repository can be found on the following wiki page:
 
-[Repository:robwebset](http://kodi.wiki/view/Repository:robwebset)
+[Repository:robwebset](https://github.com/robwebset/repository.robwebset/wiki)
 
 For information or comments on any of the addons, please refer to their Wiki or Forum pages.
 
