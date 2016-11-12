@@ -529,7 +529,7 @@
 	</extension>
 </addon>
 
-<addon id="script.videoextras" name="VideoExtras" version="100.2.4" provider-name="robwebset">
+<addon id="script.videoextras" name="VideoExtras" version="100.3.0" provider-name="robwebset">
 	<requires>
     	<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
