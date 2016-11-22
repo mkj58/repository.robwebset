@@ -50,6 +50,8 @@ There are some addons that will not be sync'ed between installations, this is no
 {| border="0"
 |- valign=top
 |
+:'''Only Synchronise If Addon Version Matches'''
+::Allows Addons that have different versions on different systems to be synchronised
 :'''Addon Synchronise Selection'''
 ::Allows either All addons to be synchronise, or to include/exclude a set of addons
 :'''Select Addons'''
