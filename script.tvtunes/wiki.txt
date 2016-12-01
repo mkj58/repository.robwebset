@@ -181,6 +181,8 @@ This section details all the settings options for TvTunes
 ::When there are multiple themes, play them in a random order
 :'''Random start time'''
 ::When a theme starts, play it from a random point in the theme
+:'''- Fixed Start Time Into Media (Seconds)'''
+::Start the theme playing a specific number of seconds in. If set to zero, then use a random start time. (If the value set is longer than the theme, a random value will be used)
 :'''Only ever play single theme'''
 ::When there are multiple themes, will only play one of them
 :'''Limit track duration when multiple themes (seconds)'''
