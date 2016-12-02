@@ -454,7 +454,7 @@
 	</extension>
 </addon>
 
-<addon id="script.tvtunes" name="TvTunes" version="100.5.0" provider-name="robwebset">
+<addon id="script.tvtunes" name="TvTunes" version="100.5.1" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
