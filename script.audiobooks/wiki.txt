@@ -71,6 +71,10 @@ The cover art for a given audiobook is retrieved in the following order:
 ::Indicate which books and chapters have been completed
 :'''Automatically Number Chapters'''
 ::Will give each chapter in an audiobook a number when displayed
+:'''Show Artist Name In Book List'''
+::Show the artist name in addition to the title when listing books (If the title does not already contain the artist)
+:'''Show Play Button If Only One Chapter'''
+::If there is only one chapter in the book, display the word "Play" instead of the chapter name/title.
 :'''Default AudioBook Cover Image'''
 ::The default cover image to use if there is no image available for the audiobook
 |}
