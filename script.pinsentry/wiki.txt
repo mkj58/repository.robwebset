@@ -42,6 +42,8 @@ That will allow you to set values as follows:
 ::Specify individual file sources to restrict
 :'''Classifications'''
 ::Specify Movie or TV Show classification to restrict
+:'''Repositories'''
+::Specify repository to restrict
 :'''[Force Pin Entry]'''
 ::Brings up the Pin Entry Dialog, forcing the pin to be entered before continuing
 <br />
@@ -141,7 +143,9 @@ This section details all the settings options for PinSentry
 :'''Plugins'''
 ::Check if a pin is required to use a given plugin
 :'''System Settings'''
-::Prompt for a pin is someone enters the Kodi system settings
+::Prompt for a pin if someone enters the Kodi system settings
+:'''Repository Access'''
+::Check if a pin is required to use a given repository
 :'''File Source'''
 ::Check if a pin is required when accessing soming using a give file source
 :'''- Only Restrict File Sources During Navigation'''
