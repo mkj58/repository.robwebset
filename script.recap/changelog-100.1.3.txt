@@ -1,0 +1,13 @@
+v100.2.0 (2016-12-14)
+- Update for support of URepo
+
+v1.3.1 (2016-08-19)
+- Moved to robwebset repository
+
+v1.0.1 (2016-06-22)
+- Changes to reduce load on recapguide.com
+
+v1.0.0 (2016-05-22)
+- Initial Version
+
+Icon Font: Bauhaus 93

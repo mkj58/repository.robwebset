@@ -1,0 +1,20 @@
+v100.3.0 (2016-12-10)
+- Update for support of URepo
+
+v1.2.4 (2016-10-03)
+- Fix issue with repeated shutdown script execution
+
+v1.2.2 (2016-08-26)
+- Allow notifications to be configured better
+
+v1.2.1 (2016-08-19)
+- Moved to robwebset repository
+
+v1.1.0 (2016-04-06)
+- Add option to run a script when the shutdown timer expires
+- Tidy up import, globals and plugin provides
+
+v1.0.0 (2016-03-19)
+- Initial Version
+
+Icon Font: Mesquite Std Medium

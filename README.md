@@ -1,4 +1,21 @@
+![URepo](repos/urepo/skins/Default/media/urepo.png)
+
+__IMPORTANT NOTICE__
+
+The robwebset repo should now only be used for developer builds, there is a new home for all the robwebset addons and that is the URepo repository:
+
+[Repository:URepo](http://www.urepo.org/)
+
+Please make sure you install the URepo repository if you wish to use any of the robwebset addons.
+
+
+
+
+
+
 ![Robwebset](repos/repository.robwebset/icon.png)
+
+__Note: For developer builds only__
 
 The robwebset repo (as the name suggests) stores all the addons written by me (robwebset), these include:
 

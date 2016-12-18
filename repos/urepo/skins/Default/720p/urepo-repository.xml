@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window id="3002">
+    <defaultcontrol>302</defaultcontrol>
+    <animation effect="fade" time="350">WindowOpen</animation>
+    <animation effect="fade" time="350">WindowClose</animation>
+    <zorder>1</zorder>
+ 	<coordinates>
+		<system>1</system>
+		<posx>260</posx>
+		<posy>35</posy>
+	</coordinates>
+    <controls>
+        <control type="image" id="101">
+            <description>Background</description>
+            <width>700</width>
+            <height>620</height>
+            <visible>true</visible>
+            <colordiffuse>FFFFFFFF</colordiffuse>
+            <texture border="40">DialogBack.png</texture>
+        </control>
+        <control type="image" id="102">
+            <description>Dialog Header image</description>
+            <posx>71</posx>
+            <posy>10</posy>
+            <width>558</width>
+            <height>170</height>
+            <texture>urepo.png</texture>
+        </control>
+        <control type="textbox" id="202">
+            <description>Message</description>
+            <posx>40</posx>
+            <posy>190</posy>
+            <width>650</width>
+            <height>560</height>
+            <align>left</align>
+            <colordiffuse>FFFFFFFF</colordiffuse>
+            <textcolor>CCFFFFFF</textcolor>
+            <label>The robwebset addons have a new home. Please install the URepo repository from:[CR]
+     http://www.urepo.org[CR]
+This will provide all the robwebset addons going forward and includes traditional forum support. Once you install the URepo repository you will be updated to the latest addon versions and this message will no longer appear. You will also benefit from easy installation of many other great addons.[CR]
+A special thank you needs to go Zag for creating this repository.[CR]
+Kindest Regards
+robwebset</label>
+        </control>
+        <control type="button" id="302">
+            <description>Close Button</description>
+            <posx>225</posx>
+            <posy>545</posy>
+            <width>250</width>
+            <height>40</height>
+            <align>center</align>
+            <label>Close</label>
+			<textcolor>ffffffff</textcolor>		<!-- white -->
+            <texturenofocus border="5">button-nofocus.png</texturenofocus>
+            <texturefocus border="5">button-focus.png</texturefocus>
+        </control>
+    </controls>
+</window>
