@@ -16,6 +16,28 @@ The following screensaver videos are supplied with the addon.  They can be enabl
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-China-D1.JPG|China - Day 1|none|thumb|250px]]
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-China-D2.JPG|China - Day 2|none|thumb|250px]]
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-China-D3.JPG|China - Day 3|none|thumb|250px]]
+|-
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-China-D4.JPG|China - Day 4|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-China-D5.JPG|China - Day 5|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-China-D6.JPG|China - Day 6|none|thumb|250px]]
+|}
+==== Dubai ====
+{|
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Dubai-D1.JPG|Dubai - Day 1|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Dubai-D2.JPG|Dubai - Day 2|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Dubai-D3.JPG|Dubai - Day 3|none|thumb|250px]]
+|-
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Dubai-D4.JPG|Dubai - Day 4|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Dubai-D5.JPG|Dubai - Day 5|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Dubai-N1.JPG|Dubai - Night 1|none|thumb|250px]]
+|-
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Dubai-N2.JPG|Dubai - Night 1|none|thumb|250px]]
+|}
+==== Greenland ====
+{|
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Greenland-D1.JPG|Greenland - Day 1|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Greenland-D2.JPG|Greenland - Day 2|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Greenland-N1.JPG|Greenland - Night 1|none|thumb|250px]]
 |}
 ==== Hawaii ====
 {|
@@ -34,7 +56,7 @@ The following screensaver videos are supplied with the addon.  They can be enabl
 {|
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-London-D1.JPG|London - Day 1|none|thumb|250px]]
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-London-D2.JPG|London - Day 2|none|thumb|250px]]
-| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-London-N1.JPG|London - Night 2|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-London-N1.JPG|London - Night 1|none|thumb|250px]]
 |-
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-London-N2.JPG|London - Night 2|none|thumb|250px]]
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-London-N3.JPG|London - Night 3|none|thumb|250px]]
