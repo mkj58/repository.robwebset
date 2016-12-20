@@ -52,6 +52,14 @@ The following screensaver videos are supplied with the addon.  They can be enabl
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Hawaii-N1.JPG|Hawaii - Night 1|none|thumb|250px]]
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-Hawaii-N2.JPG|Hawaii - Night 2|none|thumb|250px]]
 |}
+==== Hong Kong ====
+{|
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-HongKong-D1.JPG|Hong Kong - Day 1|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-HongKong-D2.JPG|Hong Kong - Day 2|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-HongKong-D3.JPG|Hong Kong - Day 3|none|thumb|250px]]
+|-
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-HongKong-N1.JPG|Hong Kong - Night 1|none|thumb|250px]]
+|}
 ==== London ====
 {|
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-London-D1.JPG|London - Day 1|none|thumb|250px]]
@@ -60,6 +68,14 @@ The following screensaver videos are supplied with the addon.  They can be enabl
 |-
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-London-N2.JPG|London - Night 2|none|thumb|250px]]
 | [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-London-N3.JPG|London - Night 3|none|thumb|250px]]
+|}
+==== Los Angeles ====
+{|
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-LosAngeles-D1.JPG|Los Angeles - Day 1|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-LosAngeles-D2.JPG|Los Angeles - Day 2|none|thumb|250px]]
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-LosAngeles-D3.JPG|Los Angeles - Day 3|none|thumb|250px]]
+|-
+| [[https://github.com/robwebset/repository.robwebset/raw/master/screensaver.video/images/VideoSecreensaver-appletv-LosAngeles-D4.JPG|Los Angeles - Day 4|none|thumb|250px]]
 |}
 ==== New York ====
 {|
