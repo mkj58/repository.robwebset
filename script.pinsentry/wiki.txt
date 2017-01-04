@@ -57,9 +57,14 @@ Each country has their own set of classifications, each meaning different things
 * France
 * Germany
 * Hungary
+* India
 * Ireland
+* Italy
 * Netherlands
 * Norway
+* Portugal
+* South Korea
+* Spain
 * Sweden
 * UK
 * USA
