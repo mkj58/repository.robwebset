@@ -209,11 +209,13 @@ This section details all the settings options for TvTunes
 :'''Always add additional themes (no overwrite)'''
 ::Will not overwrite additional themes, instead it will add to the existing list of themes
 :'''Show the TvTunes button on the Video Info screen'''
-::Enables the Download TvTune button on the Video Information screen so that you can download themes on a per Movie/TV Show basis
+::Enables the Download TvTunes button on the Video Information screen so that you can download themes on a per Movie/TV Show basis
 :'''Default Theme Search Source'''
 ::Select the web site to search in order to retrieve themes, default value is "All Sites" 
 :'''Show TvTunes On Context Menu'''
 ::If the TvTunes menu item should be shown on the context menu to allow the download of a theme directly from a given video item 
+:'''Use Local Theme Library'''
+::Allows a local Theme Library to be selected by giving the location.
 :<u>'''''Operations'''''</u>
 ::
 :'''Browse Themes'''
