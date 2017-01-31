@@ -1,7 +1,7 @@
 [[https://github.com/robwebset/script.audiobooks/raw/master/icon.png]]
 
 == Introduction ==
-You can install this addon from: [https://github.com/robwebset/repository.robwebset robwebset Repository]
+You can install this addon from: [https://www.urepo.org URepo Repository]
 <br />
 AudioBooks is an addon that allows you to list and play your AudioBooks using Kodi. Support includes m4b file format and the standard file formats supported by Kodi. (e.g. mp3, flac etc)
 <br />

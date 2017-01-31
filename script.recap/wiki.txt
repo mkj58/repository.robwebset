@@ -1,7 +1,7 @@
 [[https://github.com/robwebset/script.recap/raw/master/icon.png]]
 
 == Introduction ==
-You can install this addon from: [https://github.com/robwebset/repository.robwebset robwebset Repository]
+You can install this addon from: [https://www.urepo.org URepo Repository]
 <br />
 <br />
 The Recap addon is an addon that allows you to "Catch Up" with what has happened in a given TV Episode. It uses the site [http://www.recapguide.com www.recapguide.com] and will display a small description and 50 images to jog your memory for what happened.

@@ -1,7 +1,7 @@
 [[https://github.com/robwebset/screensaver.random/raw/master/icon.png]]
 
 == Introduction ==
-You can install this addon from: [https://github.com/robwebset/repository.robwebset robwebset Repository]
+You can install this addon from: [https://www.urepo.org URepo Repository]
 <br />
 
 The RandomScreensaver is an addon that you can select as your screensaver and every time the screensaver starts it will automatically choose one of the screensavers installed on your system and start it.
